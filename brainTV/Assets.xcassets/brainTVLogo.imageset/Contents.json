@@ -1,0 +1,23 @@
+{
+  "images" : [
+    {
+      "filename" : "BrainTV-Live_2020-Logo-Final.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "BrainTV-Live_2020-Logo-Final@2x.png",
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "BrainTV-Live_2020-Logo-Final@3x.png",
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
