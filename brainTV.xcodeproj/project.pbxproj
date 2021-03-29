@@ -52,6 +52,8 @@
 		B467FE60261249BA0055BCEF /* brainTV */ = {
 			isa = PBXGroup;
 			children = (
+				B467FE7226124DA10055BCEF /* Model */,
+				B467FE7126124D910055BCEF /* Views */,
 				B467FE61261249BA0055BCEF /* brainTVApp.swift */,
 				B467FE63261249BA0055BCEF /* ContentView.swift */,
 				B467FE65261249BB0055BCEF /* Assets.xcassets */,
@@ -67,6 +69,20 @@
 				B467FE68261249BB0055BCEF /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B467FE7126124D910055BCEF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B467FE7226124DA10055BCEF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
