@@ -12,11 +12,11 @@
 		B40464A22612770200F1FEC9 /* StandardButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B404649F2612770200F1FEC9 /* StandardButtonView.swift */; };
 		B40464A52612770B00F1FEC9 /* Doctor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B40464A42612770B00F1FEC9 /* Doctor.swift */; };
 		B467FE62261249BA0055BCEF /* BrainTVApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B467FE61261249BA0055BCEF /* BrainTVApp.swift */; };
+		55307C722612517F0030DDA9 /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55307C712612517F0030DDA9 /* TabBarView.swift */; };
 		B467FE64261249BA0055BCEF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B467FE63261249BA0055BCEF /* ContentView.swift */; };
 		B467FE66261249BB0055BCEF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B467FE65261249BB0055BCEF /* Assets.xcassets */; };
 		B467FE69261249BB0055BCEF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B467FE68261249BB0055BCEF /* Preview Assets.xcassets */; };
 		B467FE7F2612514D0055BCEF /* LogoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B467FE7E2612514D0055BCEF /* LogoView.swift */; };
-		
 		ECD422E92612568C005518D2 /* ClassCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECD422E82612568C005518D2 /* ClassCardView.swift */; };
 		B467FE82261254550055BCEF /* InputBoxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B467FE81261254550055BCEF /* InputBoxView.swift */; };
 		ECD422ED261258B9005518D2 /* Doctor.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECD422EC261258B9005518D2 /* Doctor.swift */; };
@@ -24,10 +24,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		B404649D2612770100F1FEC9 /* PanelistCardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PanelistCardView.swift; sourceTree = "<group>"; };
-		B404649E2612770200F1FEC9 /* ClassCardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClassCardView.swift; sourceTree = "<group>"; };
-		B404649F2612770200F1FEC9 /* StandardButtonView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StandardButtonView.swift; sourceTree = "<group>"; };
-		B40464A42612770B00F1FEC9 /* Doctor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Doctor.swift; sourceTree = "<group>"; };
+		55307C712612517F0030DDA9 /* TabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
 		B467FE5E261249BA0055BCEF /* brainTV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = brainTV.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B467FE61261249BA0055BCEF /* BrainTVApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrainTVApp.swift; sourceTree = "<group>"; };
 		B467FE63261249BA0055BCEF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -108,6 +105,7 @@
 			isa = PBXGroup;
 			children = (
 				B40464A42612770B00F1FEC9 /* Doctor.swift */,
+				55307C712612517F0030DDA9 /* TabBarView.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -190,6 +188,7 @@
 				B467FE62261249BA0055BCEF /* BrainTVApp.swift in Sources */,
 				B40464A02612770200F1FEC9 /* PanelistCardView.swift in Sources */,
 				B40464A12612770200F1FEC9 /* ClassCardView.swift in Sources */,
+				55307C722612517F0030DDA9 /* TabBarView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -319,6 +318,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"brainTV/Preview Content\"";
+				DEVELOPMENT_TEAM = 4G77XBGN25;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = brainTV/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -340,6 +340,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"brainTV/Preview Content\"";
+				DEVELOPMENT_TEAM = 4G77XBGN25;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = brainTV/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
