@@ -7,25 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B467FE62261249BA0055BCEF /* brainTVApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B467FE61261249BA0055BCEF /* brainTVApp.swift */; };
+		B467FE62261249BA0055BCEF /* BrainTVApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B467FE61261249BA0055BCEF /* BrainTVApp.swift */; };
 		B467FE64261249BA0055BCEF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B467FE63261249BA0055BCEF /* ContentView.swift */; };
 		B467FE66261249BB0055BCEF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B467FE65261249BB0055BCEF /* Assets.xcassets */; };
 		B467FE69261249BB0055BCEF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B467FE68261249BB0055BCEF /* Preview Assets.xcassets */; };
-		B467FE7526124EF30055BCEF /* dummyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B467FE7426124EF30055BCEF /* dummyModel.swift */; };
-		B467FE7826124EFB0055BCEF /* dummyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B467FE7726124EFB0055BCEF /* dummyView.swift */; };
-		B467FE7F2612514D0055BCEF /* logoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B467FE7E2612514D0055BCEF /* logoView.swift */; };
+		B467FE7F2612514D0055BCEF /* LogoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B467FE7E2612514D0055BCEF /* LogoView.swift */; };
+		B467FE82261254550055BCEF /* InputBoxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B467FE81261254550055BCEF /* InputBoxView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		B467FE5E261249BA0055BCEF /* brainTV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = brainTV.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		B467FE61261249BA0055BCEF /* brainTVApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = brainTVApp.swift; sourceTree = "<group>"; };
+		B467FE61261249BA0055BCEF /* BrainTVApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrainTVApp.swift; sourceTree = "<group>"; };
 		B467FE63261249BA0055BCEF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B467FE65261249BB0055BCEF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B467FE68261249BB0055BCEF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B467FE6A261249BB0055BCEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B467FE7426124EF30055BCEF /* dummyModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dummyModel.swift; sourceTree = "<group>"; };
-		B467FE7726124EFB0055BCEF /* dummyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dummyView.swift; sourceTree = "<group>"; };
-		B467FE7E2612514D0055BCEF /* logoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = logoView.swift; sourceTree = "<group>"; };
+		B467FE7E2612514D0055BCEF /* LogoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoView.swift; sourceTree = "<group>"; };
+		B467FE81261254550055BCEF /* InputBoxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputBoxView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,7 +58,7 @@
 			children = (
 				B467FE7226124DA10055BCEF /* Model */,
 				B467FE7126124D910055BCEF /* Views */,
-				B467FE61261249BA0055BCEF /* brainTVApp.swift */,
+				B467FE61261249BA0055BCEF /* BrainTVApp.swift */,
 				B467FE63261249BA0055BCEF /* ContentView.swift */,
 				B467FE65261249BB0055BCEF /* Assets.xcassets */,
 				B467FE6A261249BB0055BCEF /* Info.plist */,
@@ -80,8 +78,8 @@
 		B467FE7126124D910055BCEF /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				B467FE7726124EFB0055BCEF /* dummyView.swift */,
-				B467FE7E2612514D0055BCEF /* logoView.swift */,
+				B467FE7E2612514D0055BCEF /* LogoView.swift */,
+				B467FE81261254550055BCEF /* InputBoxView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -89,7 +87,6 @@
 		B467FE7226124DA10055BCEF /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				B467FE7426124EF30055BCEF /* dummyModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -163,11 +160,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B467FE7F2612514D0055BCEF /* logoView.swift in Sources */,
+				B467FE7F2612514D0055BCEF /* LogoView.swift in Sources */,
 				B467FE64261249BA0055BCEF /* ContentView.swift in Sources */,
-				B467FE7826124EFB0055BCEF /* dummyView.swift in Sources */,
-				B467FE7526124EF30055BCEF /* dummyModel.swift in Sources */,
-				B467FE62261249BA0055BCEF /* brainTVApp.swift in Sources */,
+				B467FE82261254550055BCEF /* InputBoxView.swift in Sources */,
+				B467FE62261249BA0055BCEF /* BrainTVApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
