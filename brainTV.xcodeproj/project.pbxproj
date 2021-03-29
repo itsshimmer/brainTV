@@ -16,7 +16,11 @@
 		B467FE66261249BB0055BCEF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B467FE65261249BB0055BCEF /* Assets.xcassets */; };
 		B467FE69261249BB0055BCEF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B467FE68261249BB0055BCEF /* Preview Assets.xcassets */; };
 		B467FE7F2612514D0055BCEF /* LogoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B467FE7E2612514D0055BCEF /* LogoView.swift */; };
+		
+		ECD422E92612568C005518D2 /* ClassCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECD422E82612568C005518D2 /* ClassCardView.swift */; };
 		B467FE82261254550055BCEF /* InputBoxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B467FE81261254550055BCEF /* InputBoxView.swift */; };
+		ECD422ED261258B9005518D2 /* Doctor.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECD422EC261258B9005518D2 /* Doctor.swift */; };
+		ECD422F126126EB0005518D2 /* ScheduleCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECD422F026126EB0005518D2 /* ScheduleCardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +36,9 @@
 		B467FE6A261249BB0055BCEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B467FE7E2612514D0055BCEF /* LogoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoView.swift; sourceTree = "<group>"; };
 		B467FE81261254550055BCEF /* InputBoxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputBoxView.swift; sourceTree = "<group>"; };
+		ECD422E82612568C005518D2 /* ClassCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassCardView.swift; sourceTree = "<group>"; };
+		ECD422EC261258B9005518D2 /* Doctor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Doctor.swift; sourceTree = "<group>"; };
+		ECD422F026126EB0005518D2 /* ScheduleCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleCardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +98,8 @@
 				B404649F2612770200F1FEC9 /* StandardButtonView.swift */,
 				B467FE7E2612514D0055BCEF /* LogoView.swift */,
 				B467FE81261254550055BCEF /* InputBoxView.swift */,
+				ECD422E82612568C005518D2 /* ClassCardView.swift */,
+				ECD422F026126EB0005518D2 /* ScheduleCardView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -173,6 +182,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B467FE7F2612514D0055BCEF /* LogoView.swift in Sources */,
+				ECD422F126126EB0005518D2 /* ScheduleCardView.swift in Sources */,
 				B467FE64261249BA0055BCEF /* ContentView.swift in Sources */,
 				B40464A52612770B00F1FEC9 /* Doctor.swift in Sources */,
 				B467FE82261254550055BCEF /* InputBoxView.swift in Sources */,
