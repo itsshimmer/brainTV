@@ -14,6 +14,8 @@
 		B467FE7526124EF30055BCEF /* dummyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B467FE7426124EF30055BCEF /* dummyModel.swift */; };
 		B467FE7826124EFB0055BCEF /* dummyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B467FE7726124EFB0055BCEF /* dummyView.swift */; };
 		B467FE7F2612514D0055BCEF /* logoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B467FE7E2612514D0055BCEF /* logoView.swift */; };
+		ECD422E92612568C005518D2 /* ClassCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECD422E82612568C005518D2 /* ClassCardView.swift */; };
+		ECD422ED261258B9005518D2 /* Doctor.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECD422EC261258B9005518D2 /* Doctor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		B467FE7426124EF30055BCEF /* dummyModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dummyModel.swift; sourceTree = "<group>"; };
 		B467FE7726124EFB0055BCEF /* dummyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dummyView.swift; sourceTree = "<group>"; };
 		B467FE7E2612514D0055BCEF /* logoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = logoView.swift; sourceTree = "<group>"; };
+		ECD422E82612568C005518D2 /* ClassCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassCardView.swift; sourceTree = "<group>"; };
+		ECD422EC261258B9005518D2 /* Doctor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Doctor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +86,7 @@
 			children = (
 				B467FE7726124EFB0055BCEF /* dummyView.swift */,
 				B467FE7E2612514D0055BCEF /* logoView.swift */,
+				ECD422E82612568C005518D2 /* ClassCardView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -90,6 +95,7 @@
 			isa = PBXGroup;
 			children = (
 				B467FE7426124EF30055BCEF /* dummyModel.swift */,
+				ECD422EC261258B9005518D2 /* Doctor.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -168,6 +174,8 @@
 				B467FE7826124EFB0055BCEF /* dummyView.swift in Sources */,
 				B467FE7526124EF30055BCEF /* dummyModel.swift in Sources */,
 				B467FE62261249BA0055BCEF /* brainTVApp.swift in Sources */,
+				ECD422E92612568C005518D2 /* ClassCardView.swift in Sources */,
+				ECD422ED261258B9005518D2 /* Doctor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
