@@ -12,6 +12,7 @@ struct RecentClassesScreen: View {
         VStack {
             HeaderView(text: "Aulas Recentes")
                 .ignoresSafeArea()
+                .padding(.bottom, -40)
             // TO DO -> REDUZIR PADDING ENTRE ESTES DOIS ELEMENTOS
             FilterNavBarView(tags: ["Geriatria","Neurologia","Psiquiatria","Radiografia"])
             //ForEach(doctors){ doctor in
@@ -24,7 +25,7 @@ struct RecentClassesScreen: View {
             
             Spacer()
         }
-        //.background(Color.gray, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/) <- TO DO
+        .background(Color.gray, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)// <- TO DO
     }
 }
 
