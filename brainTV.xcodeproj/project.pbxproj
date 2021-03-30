@@ -22,6 +22,7 @@
 		B467FE7F2612514D0055BCEF /* LogoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B467FE7E2612514D0055BCEF /* LogoView.swift */; };
 		B467FE82261254550055BCEF /* InputBoxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B467FE81261254550055BCEF /* InputBoxView.swift */; };
 		B4E7728D2612ACD400344796 /* ClassCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4E7728C2612ACD400344796 /* ClassCardView.swift */; };
+		EC2DE53E261399BC004E0FBA /* SplashScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC2DE53D261399BC004E0FBA /* SplashScreen.swift */; };
 		ECD422F126126EB0005518D2 /* ScheduleCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECD422F026126EB0005518D2 /* ScheduleCardView.swift */; };
 /* End PBXBuildFile section */
 
@@ -39,6 +40,7 @@
 		B467FE7E2612514D0055BCEF /* LogoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoView.swift; sourceTree = "<group>"; };
 		B467FE81261254550055BCEF /* InputBoxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputBoxView.swift; sourceTree = "<group>"; };
 		B4E7728C2612ACD400344796 /* ClassCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassCardView.swift; sourceTree = "<group>"; };
+		EC2DE53D261399BC004E0FBA /* SplashScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreen.swift; sourceTree = "<group>"; };
 		ECD422F026126EB0005518D2 /* ScheduleCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleCardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -76,6 +78,7 @@
 				B467FE7126124D910055BCEF /* Views */,
 				B467FE61261249BA0055BCEF /* BrainTVApp.swift */,
 				B467FE63261249BA0055BCEF /* ContentView.swift */,
+				EC2DE53D261399BC004E0FBA /* SplashScreen.swift */,
 				B467FE65261249BB0055BCEF /* Assets.xcassets */,
 				B467FE6A261249BB0055BCEF /* Info.plist */,
 				B467FE67261249BB0055BCEF /* Preview Content */,
@@ -182,6 +185,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC2DE53E261399BC004E0FBA /* SplashScreen.swift in Sources */,
 				B42CA515261278F700641E77 /* Doctor.swift in Sources */,
 				B4E7728D2612ACD400344796 /* ClassCardView.swift in Sources */,
 				B467FE7F2612514D0055BCEF /* LogoView.swift in Sources */,
