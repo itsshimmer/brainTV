@@ -40,7 +40,7 @@ struct TabBarView: View {
         .tag(Tabs.palestrantes)
         Text("Text2")
             .tabItem {
-                Image(selectedTab == Tabs.programacao ? "programacao-red" : "programacao-black")
+                Image(selectedTab == Tabs.programacao ? "programacao-red" : "programacao-black-1")
                 Text("Programação")
             }
             .tag(Tabs.programacao)

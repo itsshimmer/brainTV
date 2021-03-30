@@ -10,6 +10,7 @@
 		4842D4C326139F1E005DD911 /* PanelistsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4842D4C226139F1E005DD911 /* PanelistsScreen.swift */; };
 		4842D4CE2613A247005DD911 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4842D4CD2613A247005DD911 /* HeaderView.swift */; };
 		554366652613997700BBCDF8 /* FilterNavBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 554366642613997700BBCDF8 /* FilterNavBarView.swift */; };
+		5543666C2613AC4E00BBCDF8 /* PanelistDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5543666B2613AC4E00BBCDF8 /* PanelistDetailView.swift */; };
 		B440626E261268E30080932D /* StandardButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B440626D261268E30080932D /* StandardButtonView.swift */; };
 		B448A84026139A65009D30E3 /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B448A83F26139A65009D30E3 /* TabBarView.swift */; };
 		B467FE62261249BA0055BCEF /* BrainTVApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B467FE61261249BA0055BCEF /* BrainTVApp.swift */; };
@@ -35,6 +36,7 @@
 		4842D4C226139F1E005DD911 /* PanelistsScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PanelistsScreen.swift; sourceTree = "<group>"; };
 		4842D4CD2613A247005DD911 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
 		554366642613997700BBCDF8 /* FilterNavBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterNavBarView.swift; sourceTree = "<group>"; };
+		5543666B2613AC4E00BBCDF8 /* PanelistDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PanelistDetailView.swift; sourceTree = "<group>"; };
 		B440626D261268E30080932D /* StandardButtonView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StandardButtonView.swift; sourceTree = "<group>"; };
 		B448A83F26139A65009D30E3 /* TabBarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
 		B467FE5E261249BA0055BCEF /* brainTV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = brainTV.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -127,6 +129,7 @@
 				EC2DE54D2613AD40004E0FBA /* ThirdOnboardingView.swift */,
 				4842D4CD2613A247005DD911 /* HeaderView.swift */,
 				B467FE63261249BA0055BCEF /* ContentView.swift */,
+				5543666B2613AC4E00BBCDF8 /* PanelistDetailView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -218,6 +221,7 @@
 				B440626E261268E30080932D /* StandardButtonView.swift in Sources */,
 				DF998DF426139943002CD7EF /* InputBoxView.swift in Sources */,
 				B467FE62261249BA0055BCEF /* BrainTVApp.swift in Sources */,
+				5543666C2613AC4E00BBCDF8 /* PanelistDetailView.swift in Sources */,
 				DF998DF326139943002CD7EF /* PanelistCardView.swift in Sources */,
 				EC2DE54B2613AC36004E0FBA /* SecondOnboardingView.swift in Sources */,
 				ECD422E92612568C005518D2 /* ClassCardView.swift in Sources */,
