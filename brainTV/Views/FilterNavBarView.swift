@@ -30,11 +30,10 @@ struct FilterNavBarView: View {
                     Button(tag.name){
                         isPressed = tag.index
                     }
-                    .padding()
-                    .frame(width: /*@START_MENU_TOKEN@*/113.0/*@END_MENU_TOKEN@*/, height: /*@START_MENU_TOKEN@*/60.0/*@END_MENU_TOKEN@*/)
+                    .frame(width: 120.0, height: 30.0)
                     .background(isPressed == tag.index ? Color.red : Color(.sRGB, red: 217/255, green: 44/255, blue: 45/255, opacity: 0))
                         .foregroundColor(isPressed == tag.index ? Color.white : Color.black)
-                        .font(.title)
+                    .font(.body)
                     .cornerRadius(40)
                 }
             }
