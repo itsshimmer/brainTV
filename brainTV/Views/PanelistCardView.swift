@@ -12,9 +12,10 @@ struct PanelistCardView: View {
     
     var body: some View {
         HStack {
-            Image(doctor.name)
+            doctor.image
                 .resizable()
-                .frame(width: 98, height: 107, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
+                .frame(width: 98, height: 107, alignment: .leading)
+                .clipShape(RoundedRectangle(cornerRadius: 20))
             VStack(alignment: .leading) {
                 Text(doctor.name)
                     .bold()
@@ -23,6 +24,7 @@ struct PanelistCardView: View {
                 StandardButtonView(width: 100, height: 20, backgroundColor: .red, text: "Ver mais", textColor: .white)
             }
         }
+        .frame(width: UIScreen.main.bounds.width*0.9, height: 107, alignment: .leading)
     }
 }
 

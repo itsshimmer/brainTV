@@ -7,28 +7,29 @@
 
 import SwiftUI
 
-struct inputBoxView: View {
+struct InputBoxView: View {
     
     @State var text: String = ""
-    var placeholder: String = ""
+    var placeholder: String
+    var color: Color
     
     var body: some View {
         HStack {
             ZStack {
                 RoundedRectangle(cornerRadius: 20)
-                    .stroke(Color.red, lineWidth: 1)
+                    .stroke(color, lineWidth: 1)
                     .frame(minHeight: 40, idealHeight: 40, maxHeight: 40, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
                     .padding(10)
                 TextField(placeholder, text: $text)
-                    .padding(.leading)
+                    .padding(.leading, 25)
                 
             }
         }
     }
 }
 
-struct inputBoxView_Previews: PreviewProvider {
+struct InputBoxView_Previews: PreviewProvider {
     static var previews: some View {
-        inputBoxView(placeholder: "placeholder")
+        InputBoxView(placeholder: "placeholder", color: .red)
     }
 }

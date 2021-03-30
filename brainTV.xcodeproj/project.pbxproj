@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		554366652613997700BBCDF8 /* FilterNavBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 554366642613997700BBCDF8 /* FilterNavBarView.swift */; };
+		4842D4C326139F1E005DD911 /* PanelistsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4842D4C226139F1E005DD911 /* PanelistsScreen.swift */; };
+		4842D4CE2613A247005DD911 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4842D4CD2613A247005DD911 /* HeaderView.swift */; };
 		B440626E261268E30080932D /* StandardButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B440626D261268E30080932D /* StandardButtonView.swift */; };
 		B448A84026139A65009D30E3 /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B448A83F26139A65009D30E3 /* TabBarView.swift */; };
 		B467FE62261249BA0055BCEF /* BrainTVApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B467FE61261249BA0055BCEF /* BrainTVApp.swift */; };
@@ -31,6 +33,8 @@
 
 /* Begin PBXFileReference section */
 		554366642613997700BBCDF8 /* FilterNavBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterNavBarView.swift; sourceTree = "<group>"; };
+		4842D4C226139F1E005DD911 /* PanelistsScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PanelistsScreen.swift; sourceTree = "<group>"; };
+		4842D4CD2613A247005DD911 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
 		B440626D261268E30080932D /* StandardButtonView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StandardButtonView.swift; sourceTree = "<group>"; };
 		B448A83F26139A65009D30E3 /* TabBarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
 		B467FE5E261249BA0055BCEF /* brainTV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = brainTV.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -121,6 +125,8 @@
 				EC2DE5462613A3E5004E0FBA /* FirstOnboardingView.swift */,
 				EC2DE54A2613AC36004E0FBA /* SecondOnboardingView.swift */,
 				EC2DE54D2613AD40004E0FBA /* ThirdOnboardingView.swift */,
+				4842D4C226139F1E005DD911 /* PanelistsScreen.swift */,
+				4842D4CD2613A247005DD911 /* HeaderView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -216,6 +222,8 @@
 				EC2DE54B2613AC36004E0FBA /* SecondOnboardingView.swift in Sources */,
 				ECD422E92612568C005518D2 /* ClassCardView.swift in Sources */,
 				B4AE9A782613A35C0009A17A /* RegisterScreen.swift in Sources */,
+				4842D4CE2613A247005DD911 /* HeaderView.swift in Sources */,
+				4842D4C326139F1E005DD911 /* PanelistsScreen.swift in Sources */,
 				ECD422ED261258B9005518D2 /* Doctor.swift in Sources */,
 				EC2DE54E2613AD40004E0FBA /* ThirdOnboardingView.swift in Sources */,
 				B448A84026139A65009D30E3 /* TabBarView.swift in Sources */,
