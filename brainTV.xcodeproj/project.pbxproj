@@ -19,9 +19,10 @@
 		DF998DF526139943002CD7EF /* ScheduleCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF998DF226139943002CD7EF /* ScheduleCardView.swift */; };
 		DFAD37CA26126B7000B5DE6B /* LogoBlackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFAD37C926126B7000B5DE6B /* LogoBlackView.swift */; };
 		DFAD37CD26126BBE00B5DE6B /* LoginScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFAD37CC26126BBE00B5DE6B /* LoginScreen.swift */; };
+		EC2DE53E261399BC004E0FBA /* SplashScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC2DE53D261399BC004E0FBA /* SplashScreen.swift */; };
+		EC2DE5472613A3E5004E0FBA /* FirstOnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC2DE5462613A3E5004E0FBA /* FirstOnboardingView.swift */; };
 		ECD422E92612568C005518D2 /* ClassCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECD422E82612568C005518D2 /* ClassCardView.swift */; };
 		ECD422ED261258B9005518D2 /* Doctor.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECD422EC261258B9005518D2 /* Doctor.swift */; };
-		EC2DE53E261399BC004E0FBA /* SplashScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC2DE53D261399BC004E0FBA /* SplashScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,9 +40,10 @@
 		DF998DF226139943002CD7EF /* ScheduleCardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScheduleCardView.swift; sourceTree = "<group>"; };
 		DFAD37C926126B7000B5DE6B /* LogoBlackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoBlackView.swift; sourceTree = "<group>"; };
 		DFAD37CC26126BBE00B5DE6B /* LoginScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginScreen.swift; sourceTree = "<group>"; };
+		EC2DE53D261399BC004E0FBA /* SplashScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreen.swift; sourceTree = "<group>"; };
+		EC2DE5462613A3E5004E0FBA /* FirstOnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstOnboardingView.swift; sourceTree = "<group>"; };
 		ECD422E82612568C005518D2 /* ClassCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassCardView.swift; sourceTree = "<group>"; };
 		ECD422EC261258B9005518D2 /* Doctor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Doctor.swift; sourceTree = "<group>"; };
-		EC2DE53D261399BC004E0FBA /* SplashScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				DFAD37C926126B7000B5DE6B /* LogoBlackView.swift */,
 				B467FE7E2612514D0055BCEF /* LogoView.swift */,
 				ECD422E82612568C005518D2 /* ClassCardView.swift */,
+				EC2DE5462613A3E5004E0FBA /* FirstOnboardingView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -188,9 +191,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				EC2DE53E261399BC004E0FBA /* SplashScreen.swift in Sources */,
-				B42CA515261278F700641E77 /* Doctor.swift in Sources */,
-				B4E7728D2612ACD400344796 /* ClassCardView.swift in Sources */,
 				B467FE7F2612514D0055BCEF /* LogoView.swift in Sources */,
+				EC2DE5472613A3E5004E0FBA /* FirstOnboardingView.swift in Sources */,
 				DF998DF526139943002CD7EF /* ScheduleCardView.swift in Sources */,
 				B467FE64261249BA0055BCEF /* ContentView.swift in Sources */,
 				DFAD37CA26126B7000B5DE6B /* LogoBlackView.swift in Sources */,
