@@ -14,14 +14,15 @@
 		B467FE66261249BB0055BCEF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B467FE65261249BB0055BCEF /* Assets.xcassets */; };
 		B467FE69261249BB0055BCEF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B467FE68261249BB0055BCEF /* Preview Assets.xcassets */; };
 		B467FE7F2612514D0055BCEF /* LogoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B467FE7E2612514D0055BCEF /* LogoView.swift */; };
+		B4AE9A782613A35C0009A17A /* RegisterScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4AE9A772613A35C0009A17A /* RegisterScreen.swift */; };
 		DF998DF326139943002CD7EF /* PanelistCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF998DF026139943002CD7EF /* PanelistCardView.swift */; };
 		DF998DF426139943002CD7EF /* InputBoxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF998DF126139943002CD7EF /* InputBoxView.swift */; };
 		DF998DF526139943002CD7EF /* ScheduleCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF998DF226139943002CD7EF /* ScheduleCardView.swift */; };
 		DFAD37CA26126B7000B5DE6B /* LogoBlackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFAD37C926126B7000B5DE6B /* LogoBlackView.swift */; };
 		DFAD37CD26126BBE00B5DE6B /* LoginScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFAD37CC26126BBE00B5DE6B /* LoginScreen.swift */; };
+		EC2DE53E261399BC004E0FBA /* SplashScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC2DE53D261399BC004E0FBA /* SplashScreen.swift */; };
 		ECD422E92612568C005518D2 /* ClassCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECD422E82612568C005518D2 /* ClassCardView.swift */; };
 		ECD422ED261258B9005518D2 /* Doctor.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECD422EC261258B9005518D2 /* Doctor.swift */; };
-		EC2DE53E261399BC004E0FBA /* SplashScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC2DE53D261399BC004E0FBA /* SplashScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,14 +35,15 @@
 		B467FE68261249BB0055BCEF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B467FE6A261249BB0055BCEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B467FE7E2612514D0055BCEF /* LogoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoView.swift; sourceTree = "<group>"; };
+		B4AE9A772613A35C0009A17A /* RegisterScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterScreen.swift; sourceTree = "<group>"; };
 		DF998DF026139943002CD7EF /* PanelistCardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PanelistCardView.swift; sourceTree = "<group>"; };
 		DF998DF126139943002CD7EF /* InputBoxView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InputBoxView.swift; sourceTree = "<group>"; };
 		DF998DF226139943002CD7EF /* ScheduleCardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScheduleCardView.swift; sourceTree = "<group>"; };
 		DFAD37C926126B7000B5DE6B /* LogoBlackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoBlackView.swift; sourceTree = "<group>"; };
 		DFAD37CC26126BBE00B5DE6B /* LoginScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginScreen.swift; sourceTree = "<group>"; };
+		EC2DE53D261399BC004E0FBA /* SplashScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreen.swift; sourceTree = "<group>"; };
 		ECD422E82612568C005518D2 /* ClassCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassCardView.swift; sourceTree = "<group>"; };
 		ECD422EC261258B9005518D2 /* Doctor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Doctor.swift; sourceTree = "<group>"; };
-		EC2DE53D261399BC004E0FBA /* SplashScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 				B467FE61261249BA0055BCEF /* brainTVApp.swift */,
 				B467FE63261249BA0055BCEF /* ContentView.swift */,
 				DFAD37CC26126BBE00B5DE6B /* LoginScreen.swift */,
+				B4AE9A772613A35C0009A17A /* RegisterScreen.swift */,
 				EC2DE53D261399BC004E0FBA /* SplashScreen.swift */,
 				B467FE65261249BB0055BCEF /* Assets.xcassets */,
 				B467FE6A261249BB0055BCEF /* Info.plist */,
@@ -188,8 +191,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				EC2DE53E261399BC004E0FBA /* SplashScreen.swift in Sources */,
-				B42CA515261278F700641E77 /* Doctor.swift in Sources */,
-				B4E7728D2612ACD400344796 /* ClassCardView.swift in Sources */,
 				B467FE7F2612514D0055BCEF /* LogoView.swift in Sources */,
 				DF998DF526139943002CD7EF /* ScheduleCardView.swift in Sources */,
 				B467FE64261249BA0055BCEF /* ContentView.swift in Sources */,
@@ -199,6 +200,7 @@
 				B467FE62261249BA0055BCEF /* brainTVApp.swift in Sources */,
 				DF998DF326139943002CD7EF /* PanelistCardView.swift in Sources */,
 				ECD422E92612568C005518D2 /* ClassCardView.swift in Sources */,
+				B4AE9A782613A35C0009A17A /* RegisterScreen.swift in Sources */,
 				ECD422ED261258B9005518D2 /* Doctor.swift in Sources */,
 				B448A84026139A65009D30E3 /* TabBarView.swift in Sources */,
 				DFAD37CD26126BBE00B5DE6B /* LoginScreen.swift in Sources */,
