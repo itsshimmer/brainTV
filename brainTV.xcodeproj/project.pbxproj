@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		55307C722612517F0030DDA9 /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55307C712612517F0030DDA9 /* TabBarView.swift */; };
+		554366652613997700BBCDF8 /* FilterNavBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 554366642613997700BBCDF8 /* FilterNavBarView.swift */; };
 		B40464A02612770200F1FEC9 /* (null) in Sources */ = {isa = PBXBuildFile; };
 		B40464A12612770200F1FEC9 /* (null) in Sources */ = {isa = PBXBuildFile; };
 		B40464A22612770200F1FEC9 /* (null) in Sources */ = {isa = PBXBuildFile; };
@@ -27,6 +28,7 @@
 
 /* Begin PBXFileReference section */
 		55307C712612517F0030DDA9 /* TabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
+		554366642613997700BBCDF8 /* FilterNavBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterNavBarView.swift; sourceTree = "<group>"; };
 		B42CA514261278F700641E77 /* Doctor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Doctor.swift; sourceTree = "<group>"; };
 		B42CA5172612790000641E77 /* StandardButtonView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StandardButtonView.swift; sourceTree = "<group>"; };
 		B42CA5182612790000641E77 /* PanelistCardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PanelistCardView.swift; sourceTree = "<group>"; };
@@ -94,12 +96,14 @@
 		B467FE7126124D910055BCEF /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				55307C712612517F0030DDA9 /* TabBarView.swift */,
 				B42CA5182612790000641E77 /* PanelistCardView.swift */,
 				B42CA5172612790000641E77 /* StandardButtonView.swift */,
 				B467FE7E2612514D0055BCEF /* LogoView.swift */,
 				B467FE81261254550055BCEF /* InputBoxView.swift */,
 				ECD422F026126EB0005518D2 /* ScheduleCardView.swift */,
 				B4E7728C2612ACD400344796 /* ClassCardView.swift */,
+				554366642613997700BBCDF8 /* FilterNavBarView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -108,7 +112,6 @@
 			isa = PBXGroup;
 			children = (
 				B42CA514261278F700641E77 /* Doctor.swift */,
-				55307C712612517F0030DDA9 /* TabBarView.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -182,6 +185,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				554366652613997700BBCDF8 /* FilterNavBarView.swift in Sources */,
 				B42CA515261278F700641E77 /* Doctor.swift in Sources */,
 				B4E7728D2612ACD400344796 /* ClassCardView.swift in Sources */,
 				B467FE7F2612514D0055BCEF /* LogoView.swift in Sources */,
