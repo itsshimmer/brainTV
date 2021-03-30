@@ -15,6 +15,7 @@ struct FirstOnboardingView: View {
             VStack {
                 logoView()
                     .frame(width: 310, height: 150, alignment: .center)
+                    .padding(.top, 50.0)
                 Spacer()
                 Image("Hand_Smartphone_1")
                     .resizable()
@@ -22,11 +23,11 @@ struct FirstOnboardingView: View {
                     .padding(.top, -70.0)
                 Spacer()
                 Text("Aqui você vai poder assistir todas as aulas ao vivo.")
-                    .font(.title)
+                    .font(.title2)
                     .foregroundColor(Color.white)
                     .multilineTextAlignment(.center)
                     .padding(.top, -100.0)
-                    .padding(.horizontal, 67.0)
+                    .padding(.horizontal, 100.0)
                 Spacer()
             }
         }

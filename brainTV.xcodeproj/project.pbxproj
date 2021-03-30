@@ -27,6 +27,7 @@
 		EC2DE5472613A3E5004E0FBA /* FirstOnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC2DE5462613A3E5004E0FBA /* FirstOnboardingView.swift */; };
 		EC2DE54B2613AC36004E0FBA /* SecondOnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC2DE54A2613AC36004E0FBA /* SecondOnboardingView.swift */; };
 		EC2DE54E2613AD40004E0FBA /* ThirdOnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC2DE54D2613AD40004E0FBA /* ThirdOnboardingView.swift */; };
+		EC2DE5522613B665004E0FBA /* OnboardingScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC2DE5512613B665004E0FBA /* OnboardingScreen.swift */; };
 		ECD422E92612568C005518D2 /* ClassCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECD422E82612568C005518D2 /* ClassCardView.swift */; };
 		ECD422ED261258B9005518D2 /* Doctor.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECD422EC261258B9005518D2 /* Doctor.swift */; };
 /* End PBXBuildFile section */
@@ -54,6 +55,7 @@
 		EC2DE5462613A3E5004E0FBA /* FirstOnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstOnboardingView.swift; sourceTree = "<group>"; };
 		EC2DE54A2613AC36004E0FBA /* SecondOnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondOnboardingView.swift; sourceTree = "<group>"; };
 		EC2DE54D2613AD40004E0FBA /* ThirdOnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdOnboardingView.swift; sourceTree = "<group>"; };
+		EC2DE5512613B665004E0FBA /* OnboardingScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingScreen.swift; sourceTree = "<group>"; };
 		ECD422E82612568C005518D2 /* ClassCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassCardView.swift; sourceTree = "<group>"; };
 		ECD422EC261258B9005518D2 /* Doctor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Doctor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -127,6 +129,7 @@
 				EC2DE54D2613AD40004E0FBA /* ThirdOnboardingView.swift */,
 				4842D4CD2613A247005DD911 /* HeaderView.swift */,
 				B467FE63261249BA0055BCEF /* ContentView.swift */,
+				EC2DE5512613B665004E0FBA /* OnboardingScreen.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -225,6 +228,7 @@
 				4842D4CE2613A247005DD911 /* HeaderView.swift in Sources */,
 				4842D4C326139F1E005DD911 /* PanelistsScreen.swift in Sources */,
 				ECD422ED261258B9005518D2 /* Doctor.swift in Sources */,
+				EC2DE5522613B665004E0FBA /* OnboardingScreen.swift in Sources */,
 				EC2DE54E2613AD40004E0FBA /* ThirdOnboardingView.swift in Sources */,
 				B448A84026139A65009D30E3 /* TabBarView.swift in Sources */,
 				DFAD37CD26126BBE00B5DE6B /* LoginScreen.swift in Sources */,
