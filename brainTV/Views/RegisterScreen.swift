@@ -17,9 +17,9 @@ struct RegisterScreen: View {
                 Spacer()
                 logoBlackView().fixedSize()
                 Spacer()
-                inputBoxView(text: "Nome", placeholder: pesquisa)
-                inputBoxView(text: "E-mail", placeholder: pesquisa)
-                inputBoxView(text: "Senha", placeholder: pesquisa).padding(.bottom,30)
+                InputBoxView(text: "Nome", placeholder: pesquisa, color: .red)
+                InputBoxView(text: "E-mail", placeholder: pesquisa, color: .red)
+                InputBoxView(text: "Senha", placeholder: pesquisa, color: .red).padding(.bottom,30)
                 
                 
                 StandardButtonView(width: 200, height: 40, backgroundColor: .red, text: "Criar conta", textColor: .white)

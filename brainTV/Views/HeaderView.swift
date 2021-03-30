@@ -15,7 +15,7 @@ struct HeaderView: View {
             Spacer()
             Text(text)
                 .foregroundColor(.white)
-                .font(.title2)
+                .font(.title)
                 .frame(width: UIScreen.main.bounds.width * 0.93, height: 20, alignment: .leading)
                 .padding(.bottom, 14)
         }

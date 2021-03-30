@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		554366652613997700BBCDF8 /* FilterNavBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 554366642613997700BBCDF8 /* FilterNavBarView.swift */; };
 		4842D4C326139F1E005DD911 /* PanelistsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4842D4C226139F1E005DD911 /* PanelistsScreen.swift */; };
 		4842D4CE2613A247005DD911 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4842D4CD2613A247005DD911 /* HeaderView.swift */; };
+		554366652613997700BBCDF8 /* FilterNavBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 554366642613997700BBCDF8 /* FilterNavBarView.swift */; };
 		B440626E261268E30080932D /* StandardButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B440626D261268E30080932D /* StandardButtonView.swift */; };
 		B448A84026139A65009D30E3 /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B448A83F26139A65009D30E3 /* TabBarView.swift */; };
 		B467FE62261249BA0055BCEF /* BrainTVApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B467FE61261249BA0055BCEF /* BrainTVApp.swift */; };
@@ -32,9 +32,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		554366642613997700BBCDF8 /* FilterNavBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterNavBarView.swift; sourceTree = "<group>"; };
 		4842D4C226139F1E005DD911 /* PanelistsScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PanelistsScreen.swift; sourceTree = "<group>"; };
 		4842D4CD2613A247005DD911 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		554366642613997700BBCDF8 /* FilterNavBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterNavBarView.swift; sourceTree = "<group>"; };
 		B440626D261268E30080932D /* StandardButtonView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StandardButtonView.swift; sourceTree = "<group>"; };
 		B448A83F26139A65009D30E3 /* TabBarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
 		B467FE5E261249BA0055BCEF /* brainTV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = brainTV.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -91,10 +91,6 @@
 				B467FE7226124DA10055BCEF /* Model */,
 				B467FE7126124D910055BCEF /* Views */,
 				B467FE61261249BA0055BCEF /* BrainTVApp.swift */,
-				B467FE63261249BA0055BCEF /* ContentView.swift */,
-				DFAD37CC26126BBE00B5DE6B /* LoginScreen.swift */,
-				B4AE9A772613A35C0009A17A /* RegisterScreen.swift */,
-				EC2DE53D261399BC004E0FBA /* SplashScreen.swift */,
 				B467FE65261249BB0055BCEF /* Assets.xcassets */,
 				B467FE6A261249BB0055BCEF /* Info.plist */,
 				B467FE67261249BB0055BCEF /* Preview Content */,
@@ -113,6 +109,10 @@
 		B467FE7126124D910055BCEF /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				DFAD37CC26126BBE00B5DE6B /* LoginScreen.swift */,
+				4842D4C226139F1E005DD911 /* PanelistsScreen.swift */,
+				B4AE9A772613A35C0009A17A /* RegisterScreen.swift */,
+				EC2DE53D261399BC004E0FBA /* SplashScreen.swift */,
 				B448A83F26139A65009D30E3 /* TabBarView.swift */,
 				DF998DF126139943002CD7EF /* InputBoxView.swift */,
 				DF998DF026139943002CD7EF /* PanelistCardView.swift */,
@@ -125,8 +125,8 @@
 				EC2DE5462613A3E5004E0FBA /* FirstOnboardingView.swift */,
 				EC2DE54A2613AC36004E0FBA /* SecondOnboardingView.swift */,
 				EC2DE54D2613AD40004E0FBA /* ThirdOnboardingView.swift */,
-				4842D4C226139F1E005DD911 /* PanelistsScreen.swift */,
 				4842D4CD2613A247005DD911 /* HeaderView.swift */,
+				B467FE63261249BA0055BCEF /* ContentView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";

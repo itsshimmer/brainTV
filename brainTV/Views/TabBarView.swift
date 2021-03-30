@@ -32,7 +32,7 @@ struct TabBarView: View {
                 Text("Feed de aulas")
         }
         .tag(Tabs.feedDeAulas)
-        Text("Text1")
+        PanelistsScreen()
             .tabItem {
                 Image(selectedTab == Tabs.palestrantes ? "palestrantes-red" : "palestrantes-black")
                 Text("Palestrantes")
