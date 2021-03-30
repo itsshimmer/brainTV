@@ -17,9 +17,9 @@ struct RegisterScreen: View {
                 Spacer()
                 logoBlackView().fixedSize()
                 Spacer()
-                InputBoxView(text: "Nome", placeholder: pesquisa, color: .red)
-                InputBoxView(text: "E-mail", placeholder: pesquisa, color: .red)
-                InputBoxView(text: "Senha", placeholder: pesquisa, color: .red).padding(.bottom,30)
+                InputBoxView(text: "Nome", placeholder: pesquisa, color: .red).padding(.bottom,-10)
+                InputBoxView(text: "E-mail", placeholder: pesquisa, color: .red).padding(.bottom,-10)
+                InputBoxView(text: "Senha", placeholder: pesquisa, color: .red).padding(.bottom,50)
                 
                 
                 StandardButtonView(width: 200, height: 40, backgroundColor: .red, text: "Criar conta", textColor: .white)
@@ -29,7 +29,7 @@ struct RegisterScreen: View {
                 Text("Já tem uma conta? Fazer login.")
                     .padding()
                     .font(.footnote)
-            }
+            }.padding(.horizontal,30)
         }
     }
 }

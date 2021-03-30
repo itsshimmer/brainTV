@@ -27,7 +27,7 @@ struct LoginScreen: View {
                 
                 StandardButtonView(width: 200, height: 40, backgroundColor: .gray, text: "Criar conta", textColor: .white)
                 Spacer()
-            }
+            }.padding(.horizontal,30)
         }
     }
 }

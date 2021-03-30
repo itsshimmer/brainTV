@@ -19,11 +19,11 @@ struct InputBoxView: View {
                 RoundedRectangle(cornerRadius: 20)
                     .stroke(color, lineWidth: 1)
                     .frame(minHeight: 40, idealHeight: 40, maxHeight: 40, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
-                    .padding(10)
+                    .padding(0)
                 TextField(placeholder, text: $text)
                     .padding(.leading, 25)
                 
-            }
+            }.padding(10)
         }
     }
 }
