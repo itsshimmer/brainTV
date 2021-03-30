@@ -15,6 +15,7 @@ struct SecondOnboardingView: View {
             VStack {
                 logoView()
                     .frame(width: 310, height: 150, alignment: .center)
+                    .padding(.top, 50.0)
                 Spacer()
                 Image("Hand_Tablet_1")
                     .resizable()

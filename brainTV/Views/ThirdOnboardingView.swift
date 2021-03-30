@@ -15,6 +15,7 @@ struct ThirdOnboardingView: View {
             VStack {
                 logoView()
                     .frame(width: 310, height: 150, alignment: .center)
+                    .padding(.top, 50.0)
                 Spacer()
                 Image("Handshake_1")
                     .resizable()
@@ -29,7 +30,7 @@ struct ThirdOnboardingView: View {
                     .padding(.horizontal, 76.0)
                     .padding(.bottom, -40.0)
                 StandardButtonView(width: 156, height:30, backgroundColor: .red, text: "Começar", textColor: .white, image: "")
-                    .padding(.bottom, 120.0)
+                    .padding(.bottom, 150.0)
             }
         }
     }
