@@ -7,39 +7,41 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		55307C722612517F0030DDA9 /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55307C712612517F0030DDA9 /* TabBarView.swift */; };
-		B40464A02612770200F1FEC9 /* (null) in Sources */ = {isa = PBXBuildFile; };
-		B40464A12612770200F1FEC9 /* (null) in Sources */ = {isa = PBXBuildFile; };
-		B40464A22612770200F1FEC9 /* (null) in Sources */ = {isa = PBXBuildFile; };
-		B40464A52612770B00F1FEC9 /* (null) in Sources */ = {isa = PBXBuildFile; };
-		B42CA515261278F700641E77 /* Doctor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B42CA514261278F700641E77 /* Doctor.swift */; };
-		B42CA5192612790000641E77 /* StandardButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B42CA5172612790000641E77 /* StandardButtonView.swift */; };
-		B42CA51A2612790000641E77 /* PanelistCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B42CA5182612790000641E77 /* PanelistCardView.swift */; };
-		B467FE62261249BA0055BCEF /* BrainTVApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B467FE61261249BA0055BCEF /* BrainTVApp.swift */; };
+		B440626E261268E30080932D /* StandardButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B440626D261268E30080932D /* StandardButtonView.swift */; };
+		B467FE62261249BA0055BCEF /* brainTVApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B467FE61261249BA0055BCEF /* brainTVApp.swift */; };
 		B467FE64261249BA0055BCEF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B467FE63261249BA0055BCEF /* ContentView.swift */; };
 		B467FE66261249BB0055BCEF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B467FE65261249BB0055BCEF /* Assets.xcassets */; };
 		B467FE69261249BB0055BCEF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B467FE68261249BB0055BCEF /* Preview Assets.xcassets */; };
+		B467FE7526124EF30055BCEF /* dummyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B467FE7426124EF30055BCEF /* dummyModel.swift */; };
+		B467FE7826124EFB0055BCEF /* dummyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B467FE7726124EFB0055BCEF /* dummyView.swift */; };
 		B467FE7F2612514D0055BCEF /* LogoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B467FE7E2612514D0055BCEF /* LogoView.swift */; };
-		B467FE82261254550055BCEF /* InputBoxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B467FE81261254550055BCEF /* InputBoxView.swift */; };
-		B4E7728D2612ACD400344796 /* ClassCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4E7728C2612ACD400344796 /* ClassCardView.swift */; };
-		ECD422F126126EB0005518D2 /* ScheduleCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECD422F026126EB0005518D2 /* ScheduleCardView.swift */; };
+		DF998DF326139943002CD7EF /* PanelistCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF998DF026139943002CD7EF /* PanelistCardView.swift */; };
+		DF998DF426139943002CD7EF /* InputBoxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF998DF126139943002CD7EF /* InputBoxView.swift */; };
+		DF998DF526139943002CD7EF /* ScheduleCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF998DF226139943002CD7EF /* ScheduleCardView.swift */; };
+		DFAD37CA26126B7000B5DE6B /* logoBlackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFAD37C926126B7000B5DE6B /* logoBlackView.swift */; };
+		DFAD37CD26126BBE00B5DE6B /* LoginScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFAD37CC26126BBE00B5DE6B /* LoginScreen.swift */; };
+		ECD422E92612568C005518D2 /* ClassCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECD422E82612568C005518D2 /* ClassCardView.swift */; };
+		ECD422ED261258B9005518D2 /* Doctor.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECD422EC261258B9005518D2 /* Doctor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		55307C712612517F0030DDA9 /* TabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
-		B42CA514261278F700641E77 /* Doctor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Doctor.swift; sourceTree = "<group>"; };
-		B42CA5172612790000641E77 /* StandardButtonView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StandardButtonView.swift; sourceTree = "<group>"; };
-		B42CA5182612790000641E77 /* PanelistCardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PanelistCardView.swift; sourceTree = "<group>"; };
+		B440626D261268E30080932D /* StandardButtonView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StandardButtonView.swift; sourceTree = "<group>"; };
 		B467FE5E261249BA0055BCEF /* brainTV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = brainTV.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		B467FE61261249BA0055BCEF /* BrainTVApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrainTVApp.swift; sourceTree = "<group>"; };
+		B467FE61261249BA0055BCEF /* brainTVApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = brainTVApp.swift; sourceTree = "<group>"; };
 		B467FE63261249BA0055BCEF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B467FE65261249BB0055BCEF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B467FE68261249BB0055BCEF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B467FE6A261249BB0055BCEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B467FE7426124EF30055BCEF /* dummyModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dummyModel.swift; sourceTree = "<group>"; };
+		B467FE7726124EFB0055BCEF /* dummyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dummyView.swift; sourceTree = "<group>"; };
 		B467FE7E2612514D0055BCEF /* LogoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoView.swift; sourceTree = "<group>"; };
-		B467FE81261254550055BCEF /* InputBoxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputBoxView.swift; sourceTree = "<group>"; };
-		B4E7728C2612ACD400344796 /* ClassCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassCardView.swift; sourceTree = "<group>"; };
-		ECD422F026126EB0005518D2 /* ScheduleCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleCardView.swift; sourceTree = "<group>"; };
+		DF998DF026139943002CD7EF /* PanelistCardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PanelistCardView.swift; sourceTree = "<group>"; };
+		DF998DF126139943002CD7EF /* InputBoxView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InputBoxView.swift; sourceTree = "<group>"; };
+		DF998DF226139943002CD7EF /* ScheduleCardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScheduleCardView.swift; sourceTree = "<group>"; };
+		DFAD37C926126B7000B5DE6B /* logoBlackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = logoBlackView.swift; sourceTree = "<group>"; };
+		DFAD37CC26126BBE00B5DE6B /* LoginScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginScreen.swift; sourceTree = "<group>"; };
+		ECD422E82612568C005518D2 /* ClassCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassCardView.swift; sourceTree = "<group>"; };
+		ECD422EC261258B9005518D2 /* Doctor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Doctor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,8 +76,9 @@
 			children = (
 				B467FE7226124DA10055BCEF /* Model */,
 				B467FE7126124D910055BCEF /* Views */,
-				B467FE61261249BA0055BCEF /* BrainTVApp.swift */,
+				B467FE61261249BA0055BCEF /* brainTVApp.swift */,
 				B467FE63261249BA0055BCEF /* ContentView.swift */,
+				DFAD37CC26126BBE00B5DE6B /* LoginScreen.swift */,
 				B467FE65261249BB0055BCEF /* Assets.xcassets */,
 				B467FE6A261249BB0055BCEF /* Info.plist */,
 				B467FE67261249BB0055BCEF /* Preview Content */,
@@ -94,12 +97,14 @@
 		B467FE7126124D910055BCEF /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				B42CA5182612790000641E77 /* PanelistCardView.swift */,
-				B42CA5172612790000641E77 /* StandardButtonView.swift */,
+				DF998DF126139943002CD7EF /* InputBoxView.swift */,
+				DF998DF026139943002CD7EF /* PanelistCardView.swift */,
+				DF998DF226139943002CD7EF /* ScheduleCardView.swift */,
+				B440626D261268E30080932D /* StandardButtonView.swift */,
+				B467FE7726124EFB0055BCEF /* dummyView.swift */,
+				DFAD37C926126B7000B5DE6B /* logoBlackView.swift */,
 				B467FE7E2612514D0055BCEF /* LogoView.swift */,
-				B467FE81261254550055BCEF /* InputBoxView.swift */,
-				ECD422F026126EB0005518D2 /* ScheduleCardView.swift */,
-				B4E7728C2612ACD400344796 /* ClassCardView.swift */,
+				ECD422E82612568C005518D2 /* ClassCardView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -107,8 +112,8 @@
 		B467FE7226124DA10055BCEF /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				B42CA514261278F700641E77 /* Doctor.swift */,
-				55307C712612517F0030DDA9 /* TabBarView.swift */,
+				B467FE7426124EF30055BCEF /* dummyModel.swift */,
+				ECD422EC261258B9005518D2 /* Doctor.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -182,20 +187,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B42CA515261278F700641E77 /* Doctor.swift in Sources */,
-				B4E7728D2612ACD400344796 /* ClassCardView.swift in Sources */,
 				B467FE7F2612514D0055BCEF /* LogoView.swift in Sources */,
-				B42CA51A2612790000641E77 /* PanelistCardView.swift in Sources */,
-				ECD422F126126EB0005518D2 /* ScheduleCardView.swift in Sources */,
+				DF998DF526139943002CD7EF /* ScheduleCardView.swift in Sources */,
 				B467FE64261249BA0055BCEF /* ContentView.swift in Sources */,
-				B40464A52612770B00F1FEC9 /* (null) in Sources */,
-				B467FE82261254550055BCEF /* InputBoxView.swift in Sources */,
-				B40464A22612770200F1FEC9 /* (null) in Sources */,
-				B42CA5192612790000641E77 /* StandardButtonView.swift in Sources */,
-				B467FE62261249BA0055BCEF /* BrainTVApp.swift in Sources */,
-				B40464A02612770200F1FEC9 /* (null) in Sources */,
-				B40464A12612770200F1FEC9 /* (null) in Sources */,
-				55307C722612517F0030DDA9 /* TabBarView.swift in Sources */,
+				B467FE7826124EFB0055BCEF /* dummyView.swift in Sources */,
+				DFAD37CA26126B7000B5DE6B /* logoBlackView.swift in Sources */,
+				B440626E261268E30080932D /* StandardButtonView.swift in Sources */,
+				DF998DF426139943002CD7EF /* InputBoxView.swift in Sources */,
+				B467FE7526124EF30055BCEF /* dummyModel.swift in Sources */,
+				B467FE62261249BA0055BCEF /* brainTVApp.swift in Sources */,
+				DF998DF326139943002CD7EF /* PanelistCardView.swift in Sources */,
+				ECD422E92612568C005518D2 /* ClassCardView.swift in Sources */,
+				ECD422ED261258B9005518D2 /* Doctor.swift in Sources */,
+				DFAD37CD26126BBE00B5DE6B /* LoginScreen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -325,7 +329,6 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"brainTV/Preview Content\"";
-				DEVELOPMENT_TEAM = 4G77XBGN25;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = brainTV/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -347,7 +350,6 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"brainTV/Preview Content\"";
-				DEVELOPMENT_TEAM = 4G77XBGN25;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = brainTV/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
