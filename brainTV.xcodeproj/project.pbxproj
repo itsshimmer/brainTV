@@ -21,6 +21,7 @@
 		DFAD37CD26126BBE00B5DE6B /* LoginScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFAD37CC26126BBE00B5DE6B /* LoginScreen.swift */; };
 		ECD422E92612568C005518D2 /* ClassCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECD422E82612568C005518D2 /* ClassCardView.swift */; };
 		ECD422ED261258B9005518D2 /* Doctor.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECD422EC261258B9005518D2 /* Doctor.swift */; };
+		EC2DE53E261399BC004E0FBA /* SplashScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC2DE53D261399BC004E0FBA /* SplashScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +41,7 @@
 		DFAD37CC26126BBE00B5DE6B /* LoginScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginScreen.swift; sourceTree = "<group>"; };
 		ECD422E82612568C005518D2 /* ClassCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassCardView.swift; sourceTree = "<group>"; };
 		ECD422EC261258B9005518D2 /* Doctor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Doctor.swift; sourceTree = "<group>"; };
+		EC2DE53D261399BC004E0FBA /* SplashScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 				B467FE61261249BA0055BCEF /* brainTVApp.swift */,
 				B467FE63261249BA0055BCEF /* ContentView.swift */,
 				DFAD37CC26126BBE00B5DE6B /* LoginScreen.swift */,
+				EC2DE53D261399BC004E0FBA /* SplashScreen.swift */,
 				B467FE65261249BB0055BCEF /* Assets.xcassets */,
 				B467FE6A261249BB0055BCEF /* Info.plist */,
 				B467FE67261249BB0055BCEF /* Preview Content */,
@@ -184,6 +187,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC2DE53E261399BC004E0FBA /* SplashScreen.swift in Sources */,
+				B42CA515261278F700641E77 /* Doctor.swift in Sources */,
+				B4E7728D2612ACD400344796 /* ClassCardView.swift in Sources */,
 				B467FE7F2612514D0055BCEF /* LogoView.swift in Sources */,
 				DF998DF526139943002CD7EF /* ScheduleCardView.swift in Sources */,
 				B467FE64261249BA0055BCEF /* ContentView.swift in Sources */,
