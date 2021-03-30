@@ -17,14 +17,16 @@ struct LoginScreen: View {
                 Spacer()
                 logoBlackView().fixedSize()
                 Spacer()
-                                
+                inputBoxView(text: "E-mail", placeholder: pesquisa).padding(.bottom,5)
+                inputBoxView(text: "Senha", placeholder: pesquisa).padding(.bottom,50)
+                
+                
                 StandardButtonView(width: 200, height: 40, backgroundColor: .red, text: "Login", textColor: .white)
                 
-                StandardButtonView(width: 200, height: 40, backgroundColor: .white, text: "Login with Apple", textColor: .black, image: "applelogo").padding(.top,5)
+                StandardButtonView(width: 200, height: 40, backgroundColor: .white, text: "Login with Apple", textColor: .black, image: "applelogo").padding(.vertical,5)
                 
-                StandardButtonView(width: 200, height: 40, backgroundColor: .gray, text: "Criar conta", textColor: .white).padding(.top,5)
+                StandardButtonView(width: 200, height: 40, backgroundColor: .gray, text: "Criar conta", textColor: .white)
                 Spacer()
-                
             }
         }
     }
