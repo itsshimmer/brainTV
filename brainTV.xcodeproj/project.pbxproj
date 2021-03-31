@@ -127,6 +127,8 @@
 				4842D4C226139F1E005DD911 /* PanelistsScreen.swift */,
 				B4AE9A772613A35C0009A17A /* RegisterScreen.swift */,
 				EC2DE53D261399BC004E0FBA /* SplashScreen.swift */,
+				48BF7B712614E7FA0087C6F3 /* ScheduleScreen.swift */,
+				EC2DE5512613B665004E0FBA /* OnboardingScreen.swift */,
 				B4614C5B2613B6AC00AED3AF /* RecentClassesScreen.swift */,
 				B448A83F26139A65009D30E3 /* TabBarView.swift */,
 				DF998DF126139943002CD7EF /* InputBoxView.swift */,
@@ -144,8 +146,6 @@
 				4842D4CD2613A247005DD911 /* HeaderView.swift */,
 				B467FE63261249BA0055BCEF /* ContentView.swift */,
 				5543666B2613AC4E00BBCDF8 /* PanelistDetailView.swift */,
-				EC2DE5512613B665004E0FBA /* OnboardingScreen.swift */,
-				48BF7B712614E7FA0087C6F3 /* ScheduleScreen.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";

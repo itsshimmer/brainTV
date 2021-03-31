@@ -14,13 +14,13 @@ struct ContentView: View {
     var body: some View {
         
         switch currentScreen {
-        case "SplashScreen":
+            case "SplashScreen":
             SplashScreen(currentScreen: $currentScreen)
-        case "LoginScreen":
+            case "LoginScreen":
             LoginScreen(currentScreen: $currentScreen)
-        case "RegisterScreen":
+            case "RegisterScreen":
             RegisterScreen(currentScreen: $currentScreen)
-        case "TabBarView":
+            case "TabBarView":
             TabBarView()
         
         default:
