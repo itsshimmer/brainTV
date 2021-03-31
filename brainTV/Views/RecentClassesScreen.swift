@@ -13,14 +13,13 @@ struct RecentClassesScreen: View {
             HeaderView(text: "Aulas Recentes")
                 .ignoresSafeArea()
                 .padding(.bottom, -40)
-            FilterNavBarView(tags: ["Geriatria","Neurologia","Psiquiatria","Radiografia"])
+            FilterNavBarView(tags: ["Geriatria","Neurologia","Psiquiatria","Radiografia"]).padding(.bottom,5).padding(.leading,10)
             //ForEach(doctors){ doctor in
             ScrollView {
                 ClassCardView(doctor: doctors[0], image: Image("Envelhecimento"), time: "40 min", text: "Envelhecimento, Memória e Transtornos Cognitivos")
                 ClassCardView(doctor: doctors[1], image: Image("neuro"), time: "2h", text: "Neuropsicologia, Neuroreabilitação e Transtornos de Aprendizagem")
                 ClassCardView(doctor: doctors[2], image: Image("Epilepsia"), time: "4 h", text: "Epilepsia, Parkinson e Distúrbios do Movimento")
             }
-            Spacer()
         }
         .background(Color(.sRGB, red: 240/255, green: 240/255, blue: 240/255, opacity: 1), alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
     }

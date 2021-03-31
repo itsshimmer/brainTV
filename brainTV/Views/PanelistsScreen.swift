@@ -13,18 +13,18 @@ struct PanelistsScreen: View {
         NavigationView {
             VStack{
                     HeaderView(text: "Palestrantes")
-                    InputBoxView(text: "", placeholder: "Digite o nome do palestrante...", color: .black)
+                InputBoxView(text: "", placeholder: "Digite o nome do palestrante...", color: .black)
+                    .padding(.horizontal,10)
                     ScrollView {
                         ForEach(doctors) { doctor in
                             NavigationLink(destination: PanelistDetailView(doctor: doctor)) {
                                 PanelistCardView(doctor: doctor)
                             }
-                            Divider()
-                                .padding(.horizontal)
+                            Divider().padding(.horizontal,10).padding(.vertical,2)
                         }
-                    }
+                    }.padding(.bottom,83)
                     //TabBarView()
-                }
+            }
             .ignoresSafeArea()
         }
     }
