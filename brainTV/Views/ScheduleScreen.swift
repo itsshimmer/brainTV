@@ -21,7 +21,7 @@ struct ScheduleScreen: View {
                         }
                         else {
                             let isSameDay = item.day == schedules[index-1].day
-                            if isSameDay {
+                            if !isSameDay {
                                 Divider()
                                     .padding(.vertical, 0)
                                     .padding(.leading, 78)
