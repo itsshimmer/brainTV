@@ -38,7 +38,7 @@ struct TabBarView: View {
                 Text("Palestrantes")
         }
         .tag(Tabs.palestrantes)
-        Text("Text2")
+        ScheduleScreen()
             .tabItem {
                 Image(selectedTab == Tabs.programacao ? "programacao-red" : "programacao-black-1")
                 Text("Programação")
