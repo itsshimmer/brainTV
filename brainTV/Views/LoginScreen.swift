@@ -9,6 +9,8 @@ import SwiftUI
 
 struct LoginScreen: View {
     
+    @Binding var currentScreen: String
+    
     @State var pesquisa: String = ""
 
     var body: some View {
@@ -21,19 +23,19 @@ struct LoginScreen: View {
                 InputBoxView(text: "Senha", placeholder: pesquisa, color: .red).padding(.bottom,50)
                 
                 
-                StandardButtonView(width: 200, height: 40, backgroundColor: .red, text: "Login", textColor: .white)
+                ToScreenButtonView(width: 200, height: 40, backgroundColor: .red, text: "Login", textColor: .white, toScreen: "TabBarView", currentScreen: $currentScreen)
                 
-                StandardButtonView(width: 200, height: 40, backgroundColor: .white, text: "Login with Apple", textColor: .black, image: "applelogo").padding(.vertical,5)
+                ToScreenButtonView(width: 200, height: 40, backgroundColor: .white, text: "Login with Apple", textColor: .black, image: "applelogo", toScreen: "TabBarView", currentScreen: $currentScreen).padding(.vertical,5)
                 
-                StandardButtonView(width: 200, height: 40, backgroundColor: .gray, text: "Criar conta", textColor: .white)
+                ToScreenButtonView(width: 200, height: 40, backgroundColor: .gray, text: "Criar conta", textColor: .white, toScreen: "RegisterScreen", currentScreen: $currentScreen)
                 Spacer()
             }.padding(.horizontal,30)
         }
     }
 }
-
-struct LoginScreen_Previews: PreviewProvider {
-    static var previews: some View {
-        LoginScreen()
-    }
-}
+//
+//struct LoginScreen_Previews: PreviewProvider {
+//    static var previews: some View {
+//        LoginScreen()
+//    }
+//}

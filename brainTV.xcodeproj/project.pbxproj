@@ -12,6 +12,7 @@
 		554366652613997700BBCDF8 /* FilterNavBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 554366642613997700BBCDF8 /* FilterNavBarView.swift */; };
 		5543666C2613AC4E00BBCDF8 /* PanelistDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5543666B2613AC4E00BBCDF8 /* PanelistDetailView.swift */; };
 		55AAE4CD2614DF7300F4E7C6 /* Class.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55AAE4CC2614DF7300F4E7C6 /* Class.swift */; };
+		B428850B261507180025BFD6 /* ToScreenButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B428850A261507170025BFD6 /* ToScreenButtonView.swift */; };
 		B440626E261268E30080932D /* StandardButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B440626D261268E30080932D /* StandardButtonView.swift */; };
 		B448A84026139A65009D30E3 /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B448A83F26139A65009D30E3 /* TabBarView.swift */; };
 		B4614C5C2613B6AC00AED3AF /* RecentClassesScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4614C5B2613B6AC00AED3AF /* RecentClassesScreen.swift */; };
@@ -42,6 +43,7 @@
 		554366642613997700BBCDF8 /* FilterNavBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterNavBarView.swift; sourceTree = "<group>"; };
 		5543666B2613AC4E00BBCDF8 /* PanelistDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PanelistDetailView.swift; sourceTree = "<group>"; };
 		55AAE4CC2614DF7300F4E7C6 /* Class.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Class.swift; sourceTree = "<group>"; };
+		B428850A261507170025BFD6 /* ToScreenButtonView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToScreenButtonView.swift; sourceTree = "<group>"; };
 		B440626D261268E30080932D /* StandardButtonView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StandardButtonView.swift; sourceTree = "<group>"; };
 		B448A83F26139A65009D30E3 /* TabBarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
 		B4614C5B2613B6AC00AED3AF /* RecentClassesScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecentClassesScreen.swift; sourceTree = "<group>"; };
@@ -129,6 +131,7 @@
 				DF998DF026139943002CD7EF /* PanelistCardView.swift */,
 				DF998DF226139943002CD7EF /* ScheduleCardView.swift */,
 				B440626D261268E30080932D /* StandardButtonView.swift */,
+				B428850A261507170025BFD6 /* ToScreenButtonView.swift */,
 				DFAD37C926126B7000B5DE6B /* LogoBlackView.swift */,
 				B467FE7E2612514D0055BCEF /* LogoView.swift */,
 				ECD422E82612568C005518D2 /* ClassCardView.swift */,
@@ -232,6 +235,7 @@
 				EC2DE55B2614DF20004E0FBA /* Schedule.swift in Sources */,
 				DFAD37CA26126B7000B5DE6B /* LogoBlackView.swift in Sources */,
 				B440626E261268E30080932D /* StandardButtonView.swift in Sources */,
+				B428850B261507180025BFD6 /* ToScreenButtonView.swift in Sources */,
 				DF998DF426139943002CD7EF /* InputBoxView.swift in Sources */,
 				B467FE62261249BA0055BCEF /* BrainTVApp.swift in Sources */,
 				5543666C2613AC4E00BBCDF8 /* PanelistDetailView.swift in Sources */,

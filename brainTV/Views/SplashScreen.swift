@@ -9,11 +9,13 @@ import SwiftUI
 
 struct SplashScreen: View {
     
+    @Binding var currentScreen: String
+    
     @State var isActive:Bool = false
     
     var body: some View {
         if self.isActive {
-            OnboardingScreen()
+            OnboardingScreen(currentScreen: $currentScreen)
         } else {
             ZStack {
                 Image("BG-splash")
@@ -36,9 +38,9 @@ struct SplashScreen: View {
         
     }
 }
-
-struct SplashScreen_Previews: PreviewProvider {
-    static var previews: some View {
-        SplashScreen()
-    }
-}
+//
+//struct SplashScreen_Previews: PreviewProvider {
+//    static var previews: some View {
+//        SplashScreen()
+//    }
+//}

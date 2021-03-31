@@ -6,8 +6,13 @@
 //
 
 import SwiftUI
+import Foundation
 
 struct ThirdOnboardingView: View {
+    //@Binding var end: Bool
+    
+    @Binding var currentScreen: String
+    
     var body: some View {
         ZStack {
             RoundedRectangle(cornerRadius: 10)
@@ -27,15 +32,31 @@ struct ThirdOnboardingView: View {
                     .padding(.top, -100.0)
                     .padding(.horizontal, 76.0)
                     .padding(.bottom, -40.0)
-                StandardButtonView(width: 156, height:30, backgroundColor: .red, text: "Começar", textColor: .white, image: "")
-                    .padding(.bottom, 150.0)
+                ZStack{
+                    RoundedRectangle(cornerRadius: 150, style: .continuous)
+                        .frame(width: 156, height: 30, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
+                        .foregroundColor(.red)
+                        .shadow(radius: 5)
+                    Button(action: {
+                        currentScreen = "LoginScreen"
+                    }, label: {
+                        Text("Começar")
+                    })
+                    .frame(width: 156, height: 30, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
+                    .foregroundColor(.white)
+                }
             }
+            .padding(.bottom, 150.0)
+            
         }
     }
 }
-
-struct ThirdOnboardingView_Previews: PreviewProvider {
-    static var previews: some View {
-        ThirdOnboardingView()
-    }
-}
+//
+//struct ThirdOnboardingView_Previews: PreviewProvider {
+//
+//    @State var temp: Bool = false
+//
+//    static var previews: some View {
+//        ThirdOnboardingView(end: !$temp)
+//    }
+//}
