@@ -13,9 +13,7 @@ struct FirstOnboardingView: View {
             RoundedRectangle(cornerRadius: 10)
                 .ignoresSafeArea()
             VStack {
-                logoView()
-                    .frame(width: 310, height: 150, alignment: .center)
-                    .padding(.top, 50.0)
+                Spacer()
                 Spacer()
                 Image("Hand_Smartphone_1")
                     .resizable()
