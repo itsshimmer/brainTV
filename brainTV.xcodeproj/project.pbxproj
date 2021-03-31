@@ -30,6 +30,7 @@
 		EC2DE54B2613AC36004E0FBA /* SecondOnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC2DE54A2613AC36004E0FBA /* SecondOnboardingView.swift */; };
 		EC2DE54E2613AD40004E0FBA /* ThirdOnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC2DE54D2613AD40004E0FBA /* ThirdOnboardingView.swift */; };
 		EC2DE5522613B665004E0FBA /* OnboardingScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC2DE5512613B665004E0FBA /* OnboardingScreen.swift */; };
+		EC2DE55B2614DF20004E0FBA /* Schedule.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC2DE55A2614DF20004E0FBA /* Schedule.swift */; };
 		ECD422E92612568C005518D2 /* ClassCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECD422E82612568C005518D2 /* ClassCardView.swift */; };
 		ECD422ED261258B9005518D2 /* Doctor.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECD422EC261258B9005518D2 /* Doctor.swift */; };
 /* End PBXBuildFile section */
@@ -60,6 +61,7 @@
 		EC2DE54A2613AC36004E0FBA /* SecondOnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondOnboardingView.swift; sourceTree = "<group>"; };
 		EC2DE54D2613AD40004E0FBA /* ThirdOnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdOnboardingView.swift; sourceTree = "<group>"; };
 		EC2DE5512613B665004E0FBA /* OnboardingScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingScreen.swift; sourceTree = "<group>"; };
+		EC2DE55A2614DF20004E0FBA /* Schedule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Schedule.swift; sourceTree = "<group>"; };
 		ECD422E82612568C005518D2 /* ClassCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassCardView.swift; sourceTree = "<group>"; };
 		ECD422EC261258B9005518D2 /* Doctor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Doctor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -144,6 +146,7 @@
 			isa = PBXGroup;
 			children = (
 				ECD422EC261258B9005518D2 /* Doctor.swift */,
+				EC2DE55A2614DF20004E0FBA /* Schedule.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -223,6 +226,7 @@
 				EC2DE5472613A3E5004E0FBA /* FirstOnboardingView.swift in Sources */,
 				DF998DF526139943002CD7EF /* ScheduleCardView.swift in Sources */,
 				B467FE64261249BA0055BCEF /* ContentView.swift in Sources */,
+				EC2DE55B2614DF20004E0FBA /* Schedule.swift in Sources */,
 				DFAD37CA26126B7000B5DE6B /* LogoBlackView.swift in Sources */,
 				B440626E261268E30080932D /* StandardButtonView.swift in Sources */,
 				DF998DF426139943002CD7EF /* InputBoxView.swift in Sources */,
