@@ -11,7 +11,7 @@ import SwiftUI
 struct BrainTVApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ScheduleScreen()
         }
     }
 }
