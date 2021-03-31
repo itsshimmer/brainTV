@@ -26,7 +26,7 @@ struct TabBarView: View {
     @State var selectedTab:Tabs = .feedDeAulas
     var body: some View {
         TabView(selection: $selectedTab){
-        Text("Text")
+        RecentClassesScreen()
             .tabItem {
                 Image(selectedTab == Tabs.feedDeAulas ? "home-red" : "home-black")
                 Text("Feed de aulas")
