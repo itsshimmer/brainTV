@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		4842D4C326139F1E005DD911 /* PanelistsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4842D4C226139F1E005DD911 /* PanelistsScreen.swift */; };
 		4842D4CE2613A247005DD911 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4842D4CD2613A247005DD911 /* HeaderView.swift */; };
+		48BF7B722614E7FA0087C6F3 /* ScheduleScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48BF7B712614E7FA0087C6F3 /* ScheduleScreen.swift */; };
 		554366652613997700BBCDF8 /* FilterNavBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 554366642613997700BBCDF8 /* FilterNavBarView.swift */; };
 		5543666C2613AC4E00BBCDF8 /* PanelistDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5543666B2613AC4E00BBCDF8 /* PanelistDetailView.swift */; };
 		55AAE4CD2614DF7300F4E7C6 /* Class.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55AAE4CC2614DF7300F4E7C6 /* Class.swift */; };
@@ -40,6 +41,7 @@
 /* Begin PBXFileReference section */
 		4842D4C226139F1E005DD911 /* PanelistsScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PanelistsScreen.swift; sourceTree = "<group>"; };
 		4842D4CD2613A247005DD911 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		48BF7B712614E7FA0087C6F3 /* ScheduleScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleScreen.swift; sourceTree = "<group>"; };
 		554366642613997700BBCDF8 /* FilterNavBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterNavBarView.swift; sourceTree = "<group>"; };
 		5543666B2613AC4E00BBCDF8 /* PanelistDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PanelistDetailView.swift; sourceTree = "<group>"; };
 		55AAE4CC2614DF7300F4E7C6 /* Class.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Class.swift; sourceTree = "<group>"; };
@@ -143,6 +145,7 @@
 				B467FE63261249BA0055BCEF /* ContentView.swift */,
 				5543666B2613AC4E00BBCDF8 /* PanelistDetailView.swift */,
 				EC2DE5512613B665004E0FBA /* OnboardingScreen.swift */,
+				48BF7B712614E7FA0087C6F3 /* ScheduleScreen.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -243,6 +246,7 @@
 				55AAE4CD2614DF7300F4E7C6 /* Class.swift in Sources */,
 				EC2DE54B2613AC36004E0FBA /* SecondOnboardingView.swift in Sources */,
 				ECD422E92612568C005518D2 /* ClassCardView.swift in Sources */,
+				48BF7B722614E7FA0087C6F3 /* ScheduleScreen.swift in Sources */,
 				B4614C5C2613B6AC00AED3AF /* RecentClassesScreen.swift in Sources */,
 				B4AE9A782613A35C0009A17A /* RegisterScreen.swift in Sources */,
 				4842D4CE2613A247005DD911 /* HeaderView.swift in Sources */,
