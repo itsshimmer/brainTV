@@ -9,7 +9,9 @@ import SwiftUI
 import Foundation
 
 struct ThirdOnboardingView: View {
-    @Binding var end: Bool
+    //@Binding var end: Bool
+    
+    @Binding var currentScreen: String
     
     var body: some View {
         ZStack {
@@ -36,7 +38,7 @@ struct ThirdOnboardingView: View {
                         .foregroundColor(.red)
                         .shadow(radius: 5)
                     Button(action: {
-                        end = true
+                        currentScreen = "LoginScreen"
                     }, label: {
                         Text("Começar")
                     })

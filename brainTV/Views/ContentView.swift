@@ -8,8 +8,19 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    @State var currentScreen: String = "SplashScreen"
+    
     var body: some View {
-        SplashScreen()
+        
+        switch currentScreen {
+        case "SplashScreen":
+            SplashScreen(currentScreen: $currentScreen)
+        case "LoginScreen":
+            LoginScreen()
+        default:
+            LoginScreen()
+        }
     }
 }
 

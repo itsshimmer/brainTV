@@ -9,19 +9,19 @@ import SwiftUI
 
 struct OnboardingScreen: View {
     
-    @State var isActive:Bool = false
+    @Binding var currentScreen: String
     
     var body: some View {
         let yExtension: CGFloat = 55
         ZStack{
-            if self.isActive {
-                LoginScreen()
-            } else {
+//            if self.isActive {
+//                LoginScreen()
+//            } else {
                 GeometryReader { g in
                     TabView {
                         FirstOnboardingView()
                         SecondOnboardingView()
-                        ThirdOnboardingView(end: $isActive)
+                        ThirdOnboardingView(currentScreen: $currentScreen)
                     }
                     .frame(width: g.size.width, height: g.size.height + yExtension)
                     .tabViewStyle(PageTabViewStyle())
@@ -34,13 +34,13 @@ struct OnboardingScreen: View {
                         .padding(.top, 50.0)
                     Spacer()
                 }
-            }
+            //}
         }
     }
 }
-
-struct OnboardingScreen_Previews: PreviewProvider {
-    static var previews: some View {
-        OnboardingScreen()
-    }
-}
+//
+//struct OnboardingScreen_Previews: PreviewProvider {
+//    static var previews: some View {
+//        OnboardingScreen()
+//    }
+//}
