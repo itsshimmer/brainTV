@@ -12,11 +12,16 @@ struct PanelistCardView: View {
     
     var body: some View {
             HStack {
-                doctor.image
-                    .resizable()
-                    .frame(width: 98, height: 107, alignment: .leading)
-                    .clipShape(RoundedRectangle(cornerRadius: 20))
-                    .padding(.trailing,5)
+                RoundedRectangle(cornerRadius: 20)
+                    .frame(width: /*@START_MENU_TOKEN@*/100/*@END_MENU_TOKEN@*/, height: /*@START_MENU_TOKEN@*/100/*@END_MENU_TOKEN@*/, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
+                    .overlay(
+                        doctor.image
+                            .resizable()
+                            .aspectRatio(contentMode: /*@START_MENU_TOKEN@*/.fill/*@END_MENU_TOKEN@*/)
+                            .frame(width: /*@START_MENU_TOKEN@*/100/*@END_MENU_TOKEN@*/, height: /*@START_MENU_TOKEN@*/100/*@END_MENU_TOKEN@*/, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
+                            .clipShape(RoundedRectangle(cornerRadius: 15))
+                    )
+                
                 VStack(alignment: .leading) {
                     Text(doctor.name)
                         .foregroundColor(Color.black)
