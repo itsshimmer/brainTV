@@ -10,21 +10,23 @@ import SwiftUI
 struct PanelistsScreen: View {
     
     var body: some View {
-        VStack{
-            HeaderView(text: "Palestrantes")
-            InputBoxView(text: "", placeholder: "Digite o nome do palestrante...", color: .black)
-            ScrollView {
-                ForEach(doctors) { doctor in
-                    //NavigationLink(destination: MovieDetailView(doctor: doctor)){
-                        PanelistCardView(doctor: doctor)
-                    //}
-                    Divider()
-                        .padding(.horizontal)
+        NavigationView {
+            VStack{
+                    HeaderView(text: "Palestrantes")
+                    InputBoxView(text: "", placeholder: "Digite o nome do palestrante...", color: .black)
+                    ScrollView {
+                        ForEach(doctors) { doctor in
+                            NavigationLink(destination: PanelistDetailView(doctor: doctor)) {
+                                PanelistCardView(doctor: doctor)
+                            }
+                            Divider()
+                                .padding(.horizontal)
+                        }
+                    }
+                    //TabBarView()
                 }
-            }
-            //TabBarView()
+            .ignoresSafeArea()
         }
-        .ignoresSafeArea()
     }
 }
 
