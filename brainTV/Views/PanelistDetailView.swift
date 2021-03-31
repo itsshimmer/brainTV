@@ -18,7 +18,7 @@ struct PanelistDetailView: View {
                 VStack{
                         doctor.image
                             .resizable()
-                            .frame(height: 320.0)
+                            .frame(height: 350.0)
                             .cornerRadius(10)
                                     .overlay(RoundedRectangle(cornerRadius: 10)
                                         .stroke(Color(.sRGB, red: 217/255, green: 44/255, blue: 45/255, opacity: 0), lineWidth: 4))
@@ -36,7 +36,7 @@ struct PanelistDetailView: View {
                                             .bold()
                                             .font(.title)
                                             .foregroundColor(.red)
-                                    }
+                                    }.padding(.top,10)
                                     Divider()
                                     HStack {
                                         Text("Especialidade")
@@ -45,6 +45,7 @@ struct PanelistDetailView: View {
                                         Text(doctor.speciality)
                                             .font(.title3)
                                     }
+                                    .padding(.top,5)
                                     Divider()
                                     HStack {
                                         Text("Biografia")
@@ -54,8 +55,7 @@ struct PanelistDetailView: View {
                                         Text(doctor.bio)
                                             .font(.caption)
                                             .multilineTextAlignment(.trailing)
-                                        
-                                            
+                                            .padding(.vertical,5)
                                     }
                                     Divider()
                                     HStack {
@@ -65,6 +65,7 @@ struct PanelistDetailView: View {
                                             .padding(.bottom)
                                         Text(doctor.email)
                                             .font(.caption)
+                                            .frame(width: 190, height: 30, alignment: .trailing)
                                             
                                     }
                                     Divider()
@@ -75,12 +76,11 @@ struct PanelistDetailView: View {
                                             .padding(.bottom)
                                         Text(doctor.local)
                                             .font(.caption)
-                                            
-                                    }
+                                    }.padding(.vertical,5).padding(.bottom,10)
                                 }
                                 .padding(.horizontal)
                             }
-                            StandardButtonView(width: .infinity, height: 25, backgroundColor: .red, text: "Enviar e-mail", textColor: .white)
+                            StandardButtonView(width: .infinity, height: 25, backgroundColor: .red, text: "Enviar e-mail", textColor: .white).padding(.bottom,100)
                         }
     //                    Spacer()
                     }

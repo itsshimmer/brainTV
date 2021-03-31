@@ -16,6 +16,7 @@ struct PanelistCardView: View {
                     .resizable()
                     .frame(width: 98, height: 107, alignment: .leading)
                     .clipShape(RoundedRectangle(cornerRadius: 20))
+                    .padding(.trailing,5)
                 VStack(alignment: .leading) {
                     Text(doctor.name)
                         .foregroundColor(Color.black)
