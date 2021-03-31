@@ -24,9 +24,9 @@ struct RegisterScreen: View {
                 InputBoxView(text: "Senha", placeholder: pesquisa, color: .red).padding(.bottom,50)
                 
                 
-                ToScreenButtonView(width: 200, height: 40, backgroundColor: .red, text: "Criar conta", textColor: .white, toScreen: "RegisterScreen", currentScreen: $currentScreen)
+                ToScreenButtonView(width: 200, height: 40, backgroundColor: .red, text: "Criar conta", textColor: .white, toScreen: "TabBarView", currentScreen: $currentScreen)
                 
-                ToScreenButtonView(width: 200, height: 40, backgroundColor: .white, text: "Login with Apple", textColor: .black, image: "applelogo", toScreen: "RegisterScreen", currentScreen: $currentScreen).padding(.vertical,5)
+                ToScreenButtonView(width: 200, height: 40, backgroundColor: .white, text: "Login with Apple", textColor: .black, image: "applelogo", toScreen: "TabBarView", currentScreen: $currentScreen).padding(.vertical,5)
                 Spacer()
                 Button(action: {
                     currentScreen = "LoginScreen"
