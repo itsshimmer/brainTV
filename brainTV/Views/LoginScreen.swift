@@ -17,7 +17,7 @@ struct LoginScreen: View {
                 Spacer()
                 logoBlackView().fixedSize()
                 Spacer()
-                InputBoxView(text: "E-mail", placeholder: pesquisa, color: .red).padding(.bottom,5)
+                InputBoxView(text: "E-mail", placeholder: pesquisa, color: .red).padding(.bottom,-10)
                 InputBoxView(text: "Senha", placeholder: pesquisa, color: .red).padding(.bottom,50)
                 
                 
