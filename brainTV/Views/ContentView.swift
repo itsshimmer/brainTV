@@ -17,9 +17,14 @@ struct ContentView: View {
         case "SplashScreen":
             SplashScreen(currentScreen: $currentScreen)
         case "LoginScreen":
-            LoginScreen()
+            LoginScreen(currentScreen: $currentScreen)
+        case "RegisterScreen":
+            RegisterScreen(currentScreen: $currentScreen)
+        case "TabBarView":
+            TabBarView()
+        
         default:
-            LoginScreen()
+            LoginScreen(currentScreen: $currentScreen)
         }
     }
 }

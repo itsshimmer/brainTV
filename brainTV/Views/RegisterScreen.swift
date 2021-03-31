@@ -9,6 +9,8 @@ import SwiftUI
 
 struct RegisterScreen: View {
     
+    @Binding var currentScreen: String
+    
     @State var pesquisa: String = ""
     
     var body: some View {
@@ -22,20 +24,27 @@ struct RegisterScreen: View {
                 InputBoxView(text: "Senha", placeholder: pesquisa, color: .red).padding(.bottom,50)
                 
                 
-                StandardButtonView(width: 200, height: 40, backgroundColor: .red, text: "Criar conta", textColor: .white)
+                ToScreenButtonView(width: 200, height: 40, backgroundColor: .red, text: "Criar conta", textColor: .white, toScreen: "RegisterScreen", currentScreen: $currentScreen)
                 
-                StandardButtonView(width: 200, height: 40, backgroundColor: .white, text: "Login with Apple", textColor: .black, image: "applelogo").padding(.vertical,5)
+                ToScreenButtonView(width: 200, height: 40, backgroundColor: .white, text: "Login with Apple", textColor: .black, image: "applelogo", toScreen: "RegisterScreen", currentScreen: $currentScreen).padding(.vertical,5)
                 Spacer()
-                Text("Já tem uma conta? Fazer login.")
-                    .padding()
-                    .font(.footnote)
+                Button(action: {
+                    currentScreen = "LoginScreen"
+                }) {
+                    Text("Já tem uma conta? Fazer login.")
+                        .padding()
+                        .font(.footnote)
+                        .foregroundColor(.black)
+                }
+                
+                
             }.padding(.horizontal,30)
         }
     }
 }
 
-struct RegisterScreen_Previews: PreviewProvider {
-    static var previews: some View {
-        RegisterScreen()
-    }
-}
+//struct RegisterScreen_Previews: PreviewProvider {
+//    static var previews: some View {
+//        RegisterScreen()
+//    }
+//}
