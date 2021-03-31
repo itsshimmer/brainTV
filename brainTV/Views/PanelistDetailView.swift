@@ -12,7 +12,7 @@ struct PanelistDetailView: View {
     var body: some View {
             ZStack {
                     Rectangle()
-        //                .ignoresSafeArea()
+                        .ignoresSafeArea()
                         .foregroundColor(Color(.sRGB, red: 240/255, green: 240/255, blue: 240/255, opacity: 1))
                 ScrollView {
                 VStack{
