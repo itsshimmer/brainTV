@@ -14,7 +14,8 @@ struct StandardButtonView: View {
     var text: String
     var textColor: Color
     var image: String?
-    
+    var fontSizee: Double
+
     var body: some View {
         ZStack{
             RoundedRectangle(cornerRadius: 150, style: .continuous)
@@ -26,9 +27,11 @@ struct StandardButtonView: View {
                     Image(systemName: validImage)
                         .font(.body)
                     Text(text)
+                        .font(.system(size: CGFloat(fontSizee)))
                 }
                 else {
-                  Text(text)    
+                  Text(text)
+                    .font(.system(size: CGFloat(fontSizee)))
                 }
             })
             .frame(width: width, height: height, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
@@ -39,6 +42,6 @@ struct StandardButtonView: View {
 
 struct StandardButtonView_Previews: PreviewProvider {
     static var previews: some View {
-        StandardButtonView(width: 200, height: 50, backgroundColor: .white, text: "login with Apple", textColor: .black, image: "applelogo")
+        StandardButtonView(width: 200, height: 50, backgroundColor: .white, text: "login with Apple", textColor: .black, image: "applelogo", fontSizee: 15)
     }
 }
