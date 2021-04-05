@@ -29,8 +29,10 @@ struct PanelistCardView: View {
                         .font(.title2)
                     Text(doctor.speciality)
                         .foregroundColor(Color.black)
-                    StandardButtonView(width: 80, height: 20, backgroundColor: .red, text: "Ver mais", textColor: .white, fontSizee: 10)
-                }.padding(.leading,5)
+                    NavigationLink(destination: PanelistDetailView(doctor: doctor)) {
+                        StandardButtonView(width: 80, height: 20, backgroundColor: .red, text: "Ver mais", textColor: .white, fontSizee: 10)
+                    }.padding(.leading,5)
+                }
             }
             .frame(width: UIScreen.main.bounds.width*0.9, height: 107, alignment: .leading)
         }

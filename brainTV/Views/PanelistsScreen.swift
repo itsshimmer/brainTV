@@ -17,9 +17,7 @@ struct PanelistsScreen: View {
                     .padding(.horizontal,10)
                     ScrollView {
                         ForEach(doctors) { doctor in
-                            NavigationLink(destination: PanelistDetailView(doctor: doctor)) {
-                                PanelistCardView(doctor: doctor)
-                            }
+                            PanelistCardView(doctor: doctor)
                             Divider().padding(.horizontal,10).padding(.vertical,2)
                         }
                     }.padding(.bottom,83)

@@ -22,7 +22,7 @@ struct StandardButtonView: View {
                 .frame(width: width, height: height, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
                 .foregroundColor(backgroundColor)
                 .shadow(radius: 5)
-            Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/, label: {
+            HStack {
                 if let validImage = image {
                     Image(systemName: validImage)
                         .font(.body)
@@ -33,7 +33,7 @@ struct StandardButtonView: View {
                   Text(text)
                     .font(.system(size: CGFloat(fontSizee)))
                 }
-            })
+            }
             .frame(width: width, height: height, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
             .foregroundColor(textColor)
         }
