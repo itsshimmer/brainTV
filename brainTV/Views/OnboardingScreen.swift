@@ -28,6 +28,12 @@ struct OnboardingScreen: View {
                     }
                     .frame(width: g.size.width, height: g.size.height + yExtension)
                     .tabViewStyle(PageTabViewStyle())
+                    .onAppear(perform: {
+                       UIScrollView.appearance().bounces = false
+                     })
+                    .onDisappear(perform: {
+                       UIScrollView.appearance().bounces = true
+                     })
                 }
                 .offset(y: -yExtension)
                 .edgesIgnoringSafeArea(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)
