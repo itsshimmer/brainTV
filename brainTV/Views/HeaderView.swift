@@ -20,7 +20,7 @@ struct HeaderView: View {
                 .padding(.bottom, 14)
         }
             .frame(width: UIScreen.main.bounds.width, height: 92, alignment: .center)
-            .background(Color.black)
+            .background(Color.red)
     }
 }
 

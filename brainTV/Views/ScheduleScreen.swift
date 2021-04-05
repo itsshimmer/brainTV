@@ -29,6 +29,7 @@ struct ScheduleScreen: View {
                                     Divider()
                                         .padding(.vertical, 4)
                                         .padding(.leading, 95)
+                                        .padding(.trailing,25)
                                 }
                                 ScheduleCardView(schedule: item, shouldShowDay: isSameDay)
                             }
@@ -40,6 +41,7 @@ struct ScheduleScreen: View {
             HStack{
                 Rectangle().foregroundColor(.white).frame(width: 70, height: 0, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
                 Divider()
+                    .padding(.top,92)
                 Spacer()
             }
         }.background(Color.gray.opacity(0.1)).ignoresSafeArea()
