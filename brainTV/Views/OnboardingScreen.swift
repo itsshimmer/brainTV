@@ -14,6 +14,9 @@ struct OnboardingScreen: View {
     var body: some View {
         let yExtension: CGFloat = 55
         ZStack{
+            Rectangle()
+                .ignoresSafeArea()
+                .foregroundColor(.black)
 //            if self.isActive {
 //                LoginScreen()
 //            } else {

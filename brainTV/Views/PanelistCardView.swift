@@ -29,8 +29,8 @@ struct PanelistCardView: View {
                         .font(.title2)
                     Text(doctor.speciality)
                         .foregroundColor(Color.black)
-                        StandardButtonView(width: 100, height: 20, backgroundColor: .red, text: "Ver mais", textColor: .white)
-                }
+                    StandardButtonView(width: 80, height: 20, backgroundColor: .red, text: "Ver mais", textColor: .white, fontSizee: 10)
+                }.padding(.leading,5)
             }
             .frame(width: UIScreen.main.bounds.width*0.9, height: 107, alignment: .leading)
         }

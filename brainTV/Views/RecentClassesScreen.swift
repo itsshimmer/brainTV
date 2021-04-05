@@ -12,10 +12,10 @@ struct RecentClassesScreen: View {
         VStack {
             HeaderView(text: "Aulas Recentes")
                 .ignoresSafeArea()
-                .padding(.bottom, -40)
-            FilterNavBarView(tags: ["Geriatria","Neurologia","Psiquiatria","Radiografia"]).padding(.bottom,5).padding(.leading,10)
+                .padding(.bottom, -55)
             //ForEach(doctors){ doctor in
             ScrollView {
+                FilterNavBarView(tags: ["Geriatria","Neurologia","Psiquiatria","Radiografia"]).padding(.top,5)
                 ClassCardView(doctor: doctors[0], image: Image("Envelhecimento"), time: "40 min", text: "Envelhecimento, Memória e Transtornos Cognitivos")
                 ClassCardView(doctor: doctors[1], image: Image("neuro"), time: "2h", text: "Neuropsicologia, Neuroreabilitação e Transtornos de Aprendizagem")
                 ClassCardView(doctor: doctors[2], image: Image("Epilepsia"), time: "4 h", text: "Epilepsia, Parkinson e Distúrbios do Movimento")

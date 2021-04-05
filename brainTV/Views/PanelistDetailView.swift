@@ -18,11 +18,11 @@ struct PanelistDetailView: View {
                 VStack{
                         doctor.image
                             .resizable()
-                            .frame(height: 350.0)
+                            .frame(height: 300.0)
                             .cornerRadius(10)
                                     .overlay(RoundedRectangle(cornerRadius: 10)
                                         .stroke(Color(.sRGB, red: 217/255, green: 44/255, blue: 45/255, opacity: 0), lineWidth: 4))
-                            .padding(.top, 78.0)
+                            .padding(.top, 80.0)
                         VStack {
                             ZStack {
                                 RoundedRectangle(cornerRadius:10.0)
@@ -34,9 +34,9 @@ struct PanelistDetailView: View {
                                         Spacer()
                                         Text(doctor.name)
                                             .bold()
-                                            .font(.title)
+                                            .font(.title2)
                                             .foregroundColor(.red)
-                                    }.padding(.top,10)
+                                    }.padding(.top,12)
                                     Divider()
                                     HStack {
                                         Text("Especialidade")
@@ -55,6 +55,7 @@ struct PanelistDetailView: View {
                                         Text(doctor.bio)
                                             .font(.caption)
                                             .multilineTextAlignment(.trailing)
+                                            .frame(width: 190, height: .infinity)
                                             .padding(.vertical,5)
                                     }
                                     Divider()
@@ -80,11 +81,13 @@ struct PanelistDetailView: View {
                                 }
                                 .padding(.horizontal)
                             }
-                            StandardButtonView(width: .infinity, height: 25, backgroundColor: .red, text: "Enviar e-mail", textColor: .white).padding(.bottom,100)
+                            StandardButtonView(width: .infinity, height: 30, backgroundColor: .red, text: "Enviar e-mail", textColor: .white, fontSizee: 15).padding(.bottom,100)
                         }
     //                    Spacer()
                     }
-                    .padding()
+                .padding(.horizontal)
+                .padding(.top)
+                .padding(.bottom,13)
                 }
             .ignoresSafeArea()
         }

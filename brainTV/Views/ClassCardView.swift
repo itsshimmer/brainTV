@@ -15,16 +15,17 @@ struct ClassCardView: View {
     
     var body: some View {
         ZStack {
-            RoundedRectangle(cornerRadius: 10)
-                .frame(maxWidth: 357, maxHeight: 260)
+            RoundedRectangle(cornerRadius: 20)
+                .frame(maxWidth: .infinity, maxHeight: 260)
                 .foregroundColor(.white)
+                .padding(.horizontal)
             VStack(alignment: .leading) {
                 HStack {
                     doctor.image
                         .resizable()
                         .frame(width: 28, height: 28)
                         .clipShape(Circle())
-                        .padding(.horizontal)
+                        .padding(.leading)
                     Text(doctor.name)
                         .font(.subheadline)
                         .fontWeight(.bold)
@@ -49,15 +50,15 @@ struct ClassCardView: View {
                                 .multilineTextAlignment(.leading)
                                 .padding(.top)
 
-                            StandardButtonView(width: 120, height: 30, backgroundColor: .red, text: "Assistir", textColor: .white)
+                            StandardButtonView(width: 100, height: 25, backgroundColor: .red, text: "Assistir", textColor: .white, fontSizee: 15)
                             
                         }.frame(width: .infinity, height: .infinity, alignment: .leading)
                     }.padding(.leading,-100)
                 }
             }
-            .cornerRadius(10)
+            .cornerRadius(20)
             .overlay(
-                RoundedRectangle(cornerRadius: 10)
+                RoundedRectangle(cornerRadius: 20)
                     .stroke(Color.white, lineWidth: 2)
                     .foregroundColor(.white).opacity(0)
             )
