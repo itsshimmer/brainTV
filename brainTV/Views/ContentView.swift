@@ -15,16 +15,15 @@ struct ContentView: View {
         
         switch currentScreen {
             case "SplashScreen":
-            SplashScreen(currentScreen: $currentScreen)
+                SplashScreen(currentScreen: $currentScreen)
             case "LoginScreen":
-            LoginScreen(currentScreen: $currentScreen)
+                LoginScreen(currentScreen: $currentScreen)
             case "RegisterScreen":
-            RegisterScreen(currentScreen: $currentScreen)
+                RegisterScreen(currentScreen: $currentScreen)
             case "TabBarView":
-            TabBarView()
-        
-        default:
-            LoginScreen(currentScreen: $currentScreen)
+                TabBarView()
+            default:
+                LoginScreen(currentScreen: $currentScreen)
         }
     }
 }
