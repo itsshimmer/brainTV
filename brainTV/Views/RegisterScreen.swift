@@ -19,9 +19,9 @@ struct RegisterScreen: View {
                 Spacer()
                 logoBlackView().fixedSize()
                 Spacer()
-                InputBoxView(text: "Nome", placeholder: pesquisa, color: .red).padding(.bottom,-10)
-                InputBoxView(text: "E-mail", placeholder: pesquisa, color: .red).padding(.bottom,-10)
-                InputBoxView(text: "Senha", placeholder: pesquisa, color: .red).padding(.bottom,50)
+                InputBoxView(text: pesquisa, placeholder: "Nome", color: .red).padding(.bottom,-10)
+                InputBoxView(text: pesquisa, placeholder: "E-mail", color: .red).padding(.bottom,-10)
+                InputBoxView(text: pesquisa, placeholder: "Senha", color: .red).padding(.bottom,50)
                 
                 
                 ToScreenButtonView(width: 200, height: 40, backgroundColor: .red, text: "Criar conta", textColor: .white, toScreen: "TabBarView", currentScreen: $currentScreen)

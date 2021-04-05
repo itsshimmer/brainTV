@@ -19,8 +19,8 @@ struct LoginScreen: View {
                 Spacer()
                 logoBlackView().fixedSize()
                 Spacer()
-                InputBoxView(text: "E-mail", placeholder: pesquisa, color: .red).padding(.bottom,-10)
-                InputBoxView(text: "Senha", placeholder: pesquisa, color: .red).padding(.bottom,50)
+                InputBoxView(text: "", placeholder: "E-mail", color: .red).padding(.bottom,-10)
+                InputBoxView(text: "", placeholder: "Senha", color: .red).padding(.bottom,50)
                 
                 
                 ToScreenButtonView(width: 200, height: 40, backgroundColor: .red, text: "Login", textColor: .white, toScreen: "TabBarView", currentScreen: $currentScreen)
